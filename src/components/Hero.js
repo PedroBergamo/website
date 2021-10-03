@@ -1,6 +1,5 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
-import ScrollLite from './ScrollLite.js';
 
 const heroObj = {
     title: 'Pedro Bergamo',

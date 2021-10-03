@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Artist-Website/static/css/main.2bad23c4.chunk.css",
+    "main.js": "/React-Artist-Website/static/js/main.180c4e9d.chunk.js",
+    "main.js.map": "/React-Artist-Website/static/js/main.180c4e9d.chunk.js.map",
+    "runtime-main.js": "/React-Artist-Website/static/js/runtime-main.a93f67ee.js",
+    "runtime-main.js.map": "/React-Artist-Website/static/js/runtime-main.a93f67ee.js.map",
+    "static/js/2.ea1c00de.chunk.js": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js",
+    "static/js/2.ea1c00de.chunk.js.map": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js.map",
+    "static/js/3.48349a24.chunk.js": "/React-Artist-Website/static/js/3.48349a24.chunk.js",
+    "static/js/3.48349a24.chunk.js.map": "/React-Artist-Website/static/js/3.48349a24.chunk.js.map",
+    "index.html": "/React-Artist-Website/index.html",
+    "static/css/main.2bad23c4.chunk.css.map": "/React-Artist-Website/static/css/main.2bad23c4.chunk.css.map",
+    "static/js/2.ea1c00de.chunk.js.LICENSE.txt": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-Artist-Website/static/media/Pedro-outdoors.984e8850.jpg",
+    "static/media/Pedro-inside.cc41b88a.jpg": "/React-Artist-Website/static/media/Pedro-inside.cc41b88a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a93f67ee.js",
+    "static/js/2.ea1c00de.chunk.js",
+    "static/css/main.2bad23c4.chunk.css",
+    "static/js/main.180c4e9d.chunk.js"
+  ]
+}

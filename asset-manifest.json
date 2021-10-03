@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Artist-Website/static/css/main.2bad23c4.chunk.css",
-    "main.js": "/React-Artist-Website/static/js/main.180c4e9d.chunk.js",
-    "main.js.map": "/React-Artist-Website/static/js/main.180c4e9d.chunk.js.map",
-    "runtime-main.js": "/React-Artist-Website/static/js/runtime-main.a93f67ee.js",
-    "runtime-main.js.map": "/React-Artist-Website/static/js/runtime-main.a93f67ee.js.map",
-    "static/js/2.ea1c00de.chunk.js": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js",
-    "static/js/2.ea1c00de.chunk.js.map": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js.map",
-    "static/js/3.48349a24.chunk.js": "/React-Artist-Website/static/js/3.48349a24.chunk.js",
-    "static/js/3.48349a24.chunk.js.map": "/React-Artist-Website/static/js/3.48349a24.chunk.js.map",
-    "index.html": "/React-Artist-Website/index.html",
-    "static/css/main.2bad23c4.chunk.css.map": "/React-Artist-Website/static/css/main.2bad23c4.chunk.css.map",
-    "static/js/2.ea1c00de.chunk.js.LICENSE.txt": "/React-Artist-Website/static/js/2.ea1c00de.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/React-Artist-Website/static/media/Pedro-outdoors.984e8850.jpg",
-    "static/media/Pedro-inside.cc41b88a.jpg": "/React-Artist-Website/static/media/Pedro-inside.cc41b88a.jpg"
+    "main.css": "/website/static/css/main.7aeec5c7.chunk.css",
+    "main.js": "/website/static/js/main.e22b02b7.chunk.js",
+    "main.js.map": "/website/static/js/main.e22b02b7.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.9c576078.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.9c576078.js.map",
+    "static/js/2.d876eb47.chunk.js": "/website/static/js/2.d876eb47.chunk.js",
+    "static/js/2.d876eb47.chunk.js.map": "/website/static/js/2.d876eb47.chunk.js.map",
+    "static/js/3.50afa37a.chunk.js": "/website/static/js/3.50afa37a.chunk.js",
+    "static/js/3.50afa37a.chunk.js.map": "/website/static/js/3.50afa37a.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.7aeec5c7.chunk.css.map": "/website/static/css/main.7aeec5c7.chunk.css.map",
+    "static/js/2.d876eb47.chunk.js.LICENSE.txt": "/website/static/js/2.d876eb47.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/website/static/media/Pedro-outdoors.984e8850.jpg",
+    "static/media/Pedro-inside.cc41b88a.jpg": "/website/static/media/Pedro-inside.cc41b88a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a93f67ee.js",
-    "static/js/2.ea1c00de.chunk.js",
-    "static/css/main.2bad23c4.chunk.css",
-    "static/js/main.180c4e9d.chunk.js"
+    "static/js/runtime-main.9c576078.js",
+    "static/js/2.d876eb47.chunk.js",
+    "static/css/main.7aeec5c7.chunk.css",
+    "static/js/main.e22b02b7.chunk.js"
   ]
 }

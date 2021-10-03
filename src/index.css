@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade|Source+Sans+Pro");
+
+@font-face {
+  font-family: 'Brick Town';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/bricktown/Bricktown.otf');
+}
+
+body {
+  font-family: "Source Sans Pro", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("images/Pedro-outdoors.jpg");
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Brick Town", cursive;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: black;
+}
+
+.main > .container {
+  padding-top: 5rem;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce {
+  animation: bounce 1.2s ease 0s infinite alternate;
+}
+
+.white {
+  color: #FFF;
+}
+
+.black {
+  color: #000000;
+}
+
+#projects .showGrid p {
+  margin-left: 15px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import photo from '../images/Pedro-inside.jpg';
 
 export default class About extends React.Component {
   render() {
@@ -25,6 +26,9 @@ export default class About extends React.Component {
               <p>Seppo Salmi - Electric Guitar</p>
             </h5>
           </Col>
+            <Col xs={12} sm={6}>
+              <img width="400" height="600" src={photo}></img>
+            </Col>
         </Row>
       </Container>
     );

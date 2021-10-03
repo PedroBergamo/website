@@ -4,11 +4,12 @@
   font-family: 'Brick Town';
   font-style: normal;
   font-weight: 400;
+  color: #ffffff;
   src: url('./fonts/bricktown/Bricktown.otf');
 }
 
 body {
-  font-family: "Source Sans Pro", serif;
+  font-family: "Baskerville", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -35,7 +36,6 @@ body:before {
 
 h1 {
   font-family: "Brick Town", cursive;
-  color: #ffffff;
 }
 
 h1,
@@ -45,6 +45,7 @@ h4,
 h5,
 p {
   color: black;
+  font-size: x-large;
 }
 
 .main > .container {

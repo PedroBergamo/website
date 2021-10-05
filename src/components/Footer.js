@@ -31,7 +31,6 @@ export default class Footer extends React.Component {
                 <footer style={styles.footer}>
                     <p>&copy; {footerObj.date} - {footerObj.name}</p>
                 </footer>
-                <SocialMedia/>
             </div>
         );
     }

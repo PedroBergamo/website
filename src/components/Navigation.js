@@ -2,8 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
 const navObj = {
-    title: 'PB',
-    subtitle: '',
+    title: 'PEDRO BERGAMO',
     logo: 'images/logo.png',
     navStyle: {
         fontSize: '1em',

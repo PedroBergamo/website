@@ -25,7 +25,7 @@ export default class About extends React.Component {
             </h5>
           </Col>
             <Col xs={12} sm={6}>
-              <img width="400" height="600" src={photo}></img>
+              <img width="400" height="600" src={photo} alt="Pedro Bergamo Outdoor"></img>
             </Col>
         </Row>
       </Container>

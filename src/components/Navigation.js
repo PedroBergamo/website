@@ -1,5 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import Scroll from 'react-scroll';
+const ScrollLink = Scroll.ScrollLink;
 
 const navObj = {
     title: 'PEDRO BERGAMO',
@@ -24,6 +26,18 @@ export default class Navigation extends React.Component {
                 <Navbar.Brand className="bungee white" style={navObj.brandStyle}>
                     {navObj.title}
                 </Navbar.Brand>
+                <Nav>
+                  <ScrollLink
+                    to="VideoPlayer"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className='some-class'
+                    activeClass='some-active-class'
+                  >
+                  Video Player
+                  </ScrollLink>
+                </Nav>
                 <Nav className="mr-auto" style={navObj.navStyle}>
                     <Nav.Link
                         href="https://www.facebook.com/PedroBergamoOfficial/"
@@ -41,30 +55,7 @@ export default class Navigation extends React.Component {
                       >
                         <span className="fa fa-youtube white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
-                    <Nav.Link
-                        href="https://www.instagram.com/pedro.bergamo/"
-                        target="_blank"
-                        alt="Instagram"
-                        style={navObj.linkStyle}
-                      >
-                        <span className="fa fa-instagram white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
-                    <Nav.Link
-                        href="https://open.spotify.com/artist/3mRWEl21jxyttpZH1s7TSd?si=7108dad7994b415c"
-                        target="_blank"
-                        alt="ReverbNation"
-                        style={navObj.linkStyle}
-                      >
-                        <span className="fa fa-spotify white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
-                    <Nav.Link
-                        href="https://pedrobergamo.bandcamp.com"
-                        target="_blank"
-                        alt="Bandcamp"
-                        style={navObj.linkStyle}
-                    >
-                        <span className="fa fa-bandcamp white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
+
                 </Nav>
             </Navbar>
         );

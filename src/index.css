@@ -12,27 +12,9 @@ body {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url("images/Pedro-outdoors.jpg");
-  background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 h1 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 100px;
+  font-size: 48px;
   color: white;
 }
 
@@ -73,4 +55,94 @@ p {
 
 #projects .showGrid p {
   margin-left: 15px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 830px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+}
+
+.menu__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.menu__list-item {
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #999;
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+}
+
+.menu__link:hover {
+    color: #ffaa3b;
+}
+
+.menu__link--active {
+    color: #ffaa3b;
+    font-weight: 700;
+}
+.custom-logo{
+  width: 110px;
+  height: 85px;
+}
+
+.menu__logo {
+  max-width: 100%;
+  height: 70px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-position: center;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 const navObj = {
     navStyle: {
@@ -10,22 +10,21 @@ const navObj = {
         fontSize: '1.4em'
     },
     linkStyle: {
-      marginRight: '16px'
+      margin: "16px",
     }
 };
 
 export default class SocialMedia extends React.Component {
     render() {
         return (
-            <Navbar expand bg="dark" variant="dark" sticky="top">
-                <Nav className="mr-auto" style={navObj.navStyle}>
+                <Nav className="center" style={navObj.navStyle}>
                     <Nav.Link
                         href="https://www.facebook.com/PedroBergamoOfficial/"
                         target="_blank"
                         alt="Facebook"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-facebook black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-facebook white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://www.youtube.com/channel/UCNQ8zZfIcpQf9cNEYxsoiOQ"
@@ -33,7 +32,7 @@ export default class SocialMedia extends React.Component {
                         alt="ReverbNation"
                         style={navObj.linkStyle}
                       >
-                        <span className="fa fa-youtube black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-youtube white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://www.instagram.com/pedro.bergamo/"
@@ -41,7 +40,7 @@ export default class SocialMedia extends React.Component {
                         alt="Instagram"
                         style={navObj.linkStyle}
                       >
-                        <span className="fa fa-instagram black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-instagram white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://open.spotify.com/artist/3mRWEl21jxyttpZH1s7TSd?si=7108dad7994b415c"
@@ -49,7 +48,7 @@ export default class SocialMedia extends React.Component {
                         alt="ReverbNation"
                         style={navObj.linkStyle}
                       >
-                        <span className="fa fa-spotify black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-spotify white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://pedrobergamo.bandcamp.com"
@@ -57,10 +56,9 @@ export default class SocialMedia extends React.Component {
                         alt="Bandcamp"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-bandcamp black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-bandcamp white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                 </Nav>
-            </Navbar>
         );
     }
 }

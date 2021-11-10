@@ -1,10 +1,12 @@
 import React from 'react';
+import SocialMedia from "./SocialMedia.js"
 
 const date = new Date();
 
 const footerObj = {
     name: 'Pedro Bergamo',
-    date: date.getFullYear()
+    date: date.getFullYear(),
+    contact: 'pedrobergamo89@gmail.com'
 };
 
 const styles = {
@@ -26,8 +28,11 @@ export default class Footer extends React.Component {
 
     render(){
         return (
+
             <div style={styles.container}>
+                      <SocialMedia />
                 <footer style={styles.footer}>
+                    <p>{footerObj.contact}</p>
                     <p>&copy; {footerObj.date} - {footerObj.name}</p>
                 </footer>
             </div>

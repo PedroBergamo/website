@@ -13,11 +13,8 @@ const style = {
 };
 
 export default class MusicPlayer extends React.Component {
-
     render() {
-
         return (
-
             <Container id="music">
                 <Row>
                     <Col xs={12} sm={12}>

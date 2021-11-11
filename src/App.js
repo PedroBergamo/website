@@ -8,7 +8,7 @@ import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
 
 import {
-    BrowserRouter as Router, Switch, Route, Link
+      HashRouter, Switch, Route, Link
   } from 'react-router-dom';
 
 function App() {
@@ -18,7 +18,7 @@ useEffect(() => {
 },[])
 
   return (
-    <Router>
+    <HashRouter>
     <div className="container center">
         <nav className="menu">
           <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
@@ -46,7 +46,7 @@ useEffect(() => {
     </Route>
     </Switch>
       <Footer a id="f"/>
-    </Router>
+    </HashRouter>
   );
 }
 

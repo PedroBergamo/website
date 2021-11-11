@@ -1,7 +1,11 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #181818;
+  background-color: black;
+   background-size:  100%;
+  background-image: url("./images/Santeros1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -13,7 +17,7 @@ body {
 }
 
 .bergamo_orange{
-  color:#ffaa3b;
+  color: #FFAA3A;
 }
 
 .white {
@@ -30,7 +34,7 @@ h1 {
   color: white;
   text-align: center;
   margin: auto;
-
+  text-transform: uppercase;
   line-height: 1.5em;
 }
 
@@ -70,18 +74,14 @@ p {
   animation: bounce 1.2s ease 0s infinite alternate;
 }
 
-
-
 #projects .showGrid p {
   margin-left: 40px;
 }
-
 
 html, body {
     margin: 0;
     padding: 0;
 }
-
 
 .container {
     width: 1000px;
@@ -133,7 +133,7 @@ html, body {
 }
 
 .menu__link {
-    color: #999;
+    color: white;
     display: inline-block;
     height: 100%;
     font-size: 16px;
@@ -145,21 +145,27 @@ html, body {
 }
 
 .text_link {
+  color: #ffaa3b;
+    text-decoration: underline white;
+}
+
+.text_link:hover {
   color: white;
     text-decoration: underline white;
 }
 
 .menu__link:hover {
-    color: bergamo_orange;
+    color: #ffaa3b;
 }
 
-.menu__link:active {
-    color: bergamo_orange;
-    font-weight: 700;
+.menu__link:focus {
+    color: #ffaa3b;
 }
+
+
 .custom-logo{
-  width: 110px;
-  height: 85px;
+  width: 220px;
+  height: 170px;
 }
 
 .menu__logo {

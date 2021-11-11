@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
-import CustomLogo from "./images/LogoWhite.jpg";
+import CustomLogo from "./images/LogoWhite.png";
 import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
@@ -23,16 +23,15 @@ useEffect(() => {
         <nav className="menu">
           <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
             <div className="menu__right">
-
                 <ul className="menu__list">
-                    <li className="menu__list-item"><Link className="menu__link" to="/lossanteros">Los Santeros</Link></li>
+                    <li className="menu__list-item"><Link className="menu__link" to="/bio">Bio</Link></li>
                     <li className="menu__list-item"><Link className="menu__link" to="/music">Music</Link></li>
                 </ul>
             </div>
         </nav>
     </div>
     <Switch>
-    <Route path="/lossanteros" exact>
+    <Route path="/bio" exact>
       <Santeros />
     </Route>
     <Route path="/music" exact>

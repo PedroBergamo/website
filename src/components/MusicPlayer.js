@@ -17,25 +17,25 @@ export default class MusicPlayer extends React.Component {
         return (
             <Container id="music">
                 <Row>
-                    <Col xs={12} sm={12}>
+                  <Col xs={12} sm={6}>
                         <h1>Music</h1>
                     </Col>
                     <Col xs={12} sm={6}>
                         <h3>O Feiticeiro Esteve Aqui <i></i></h3>
                         <iframe style={style} title="O Feiticeiro Esteve Aqui" src={BandCamp.song1} seamless>
-                            <a href="https://pedrobergamo.bandcamp.com/track/o-feiticeiro-esteve-aqui">i won't ask</a>
+                            <a href="https://pedrobergamo.bandcamp.com/track/o-feiticeiro-esteve-aqui">O Feiticeiro Esteve Aqui</a>
                         </iframe>
                     </Col>
                     <Col xs={12} sm={6}>
                         <h3>Flores pelo céu<i></i></h3>
                         <iframe style={style} title="Flores pelo céu" src={BandCamp.song2} seamless>
-                            <a href="https://pedrobergamo.bandcamp.com/track/flores-pelo-c-u">Something Like Love</a>
+                            <a href="https://pedrobergamo.bandcamp.com/track/flores-pelo-c-u">Flores Pelo Céu</a>
                         </iframe>
                     </Col>
                     <Col xs={12} sm={6}>
                         <h3>Abrahadabra!<i></i></h3>
                         <iframe style={style} title="Abrahadabra!" src={BandCamp.song3} seamless>
-                            <a href="https://pedrobergamo.bandcamp.com/track/abrahadabra">Something Like Love</a>
+                            <a href="https://pedrobergamo.bandcamp.com/track/abrahadabra">Abrahadabra!</a>
                         </iframe>
                     </Col>
                 </Row>

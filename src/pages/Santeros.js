@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import band from "../images/Santeros1.png"
-
+import band from "../images/Santeros2.jpg"
+import pedro from "../images/PedroBergamo_anders.jpg"
 var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
 var furia = "https://www.youtube.com/watch?v=RJ8V-DpP1gM";
 var condor = "https://www.youtube.com/watch?v=Czu7Yc6Fnmo";
@@ -20,15 +20,13 @@ const Bio = () => {
       <Row>
       <Col xs={12} sm={6}>
      <img src={band} width="100%" alt="Los Santeros" />
-     <p>From left to right:</p>
      <p>Rolando Camilo - Drums & Vocals</p>
      <p>Seppo Salmi - Electric Guitar</p>
      <p>Pedro Bergamo - Acoustic Guitar & Vocals</p>
      <a className="text_link" href={satu} target="_blank" rel="noreferrer">
      <p>Satu Lankinen - Accordion & Vocals</p></a>
-
-     <p>Photo by <a className="text_link" href={anders}
-     target="_blank" rel="noreferrer">Anders Meinander</a> </p>
+    <p>Photo by <a className="text_link" href={anders}
+      target="_blank" rel="noreferrer">Anders Meinander</a> </p>
      </Col>
         <Col xs={12} sm={6}>
 
@@ -40,9 +38,9 @@ const Bio = () => {
             className="text_link" href={canario_passarinho} target="_blank" rel="noreferrer">
             "Canário e Passarinho"</a>.
             </p>
-              <p>
+            <p>
             His musical journey started in the church playing acoustic guitar and singing. In his teenage years he
-            quit the church, joining several metal and rock n'roll bands from <a className="text_link" href={furia}
+            gave up becoming a pastor, joining several metal and rock n'roll bands from <a className="text_link" href={furia}
             target="_blank" rel="noreferrer">Franca alternative scene</a>.
             </p>
             <p>

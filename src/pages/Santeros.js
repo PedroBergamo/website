@@ -38,7 +38,7 @@ const Bio = () => {
             className="text_link" href={canario_passarinho} target="_blank" rel="noreferrer">
             "Canário e Passarinho"</a>.
             </p>
-              <p>
+            <p>
             His musical journey started in the church playing acoustic guitar and singing. In his teenage years he
             gave up becoming a pastor, joining several metal and rock n'roll bands from <a className="text_link" href={furia}
             target="_blank" rel="noreferrer">Franca alternative scene</a>.

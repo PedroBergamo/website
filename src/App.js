@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
-import CustomLogo from "./images/LogoWhite.png";
+import CustomLogo from "./images/Logo2.png";
 import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";

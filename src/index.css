@@ -3,10 +3,10 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: black;
    background-size:  100%;
-  background-image: url("./images/Santeros1.png");
+  background-image: url("./images/Santo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+  }
 
 @font-face {
   font-family: 'Roboto Condensed';
@@ -16,6 +16,9 @@ body {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+.band_photo{
+  width:10%;
+}
 .bergamo_orange{
   color: #FFAA3A;
 }
@@ -74,19 +77,13 @@ p {
   animation: bounce 1.2s ease 0s infinite alternate;
 }
 
-#projects .showGrid p {
-  margin-left: 40px;
-}
-
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 120;
+    padding: 120;
 }
 
 .container {
-    width: 1000px;
-    margin: 20px auto;
-}
+    }
 
 .center {
     display: flex;
@@ -100,18 +97,13 @@ html, body {
 .menu {
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
-    width: 830px;
+    /*width: 830px;*/
     height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
     position: relative;
-}
-
-.menu__right {
-    display: flex;
     align-items: center;
-    height: 100%;
 }
 
 .menu__list {
@@ -119,29 +111,22 @@ html, body {
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: 40px;
 }
 
-.menu__list-item {
+.menu-item {
     display: inline-block;
     height: 100%;
-    margin-right: 20px;
-}
-
-.menu__list-item:last-child {
-    margin-right: 0;
+    margin: 0 auto;
 }
 
 .menu__link {
     color: white;
-    display: inline-block;
     height: 100%;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    padding: 0 3px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .text_link {
@@ -162,10 +147,12 @@ html, body {
     color: #ffaa3b;
 }
 
-
 .custom-logo{
   width: 220px;
   height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__logo {

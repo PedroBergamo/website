@@ -1,13 +1,18 @@
 import React from 'react';
+
+import { Container, Row, Col } from "react-bootstrap";
 import MusicPlayer from "../components/MusicPlayer.js";
 import VideoPlayer from "../components/VideoPlayer.js";
 
 const Music = () => {
   return(
-    <div>
-    <MusicPlayer/>
-    <VideoPlayer/>
-    </div>
+      <Container id="music">
+        <div>
+          <MusicPlayer/>
+          <VideoPlayer/>
+        </div>
+      </Container >
+
   );
 };
 

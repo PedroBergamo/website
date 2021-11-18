@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import band from "../images/Santeros2.jpg"
-import pedro from "../images/PedroBergamo_anders.jpg"
 var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
 var furia = "https://www.youtube.com/watch?v=RJ8V-DpP1gM";
 var condor = "https://www.youtube.com/watch?v=Czu7Yc6Fnmo";

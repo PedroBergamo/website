@@ -16,7 +16,9 @@
 
 .link{
   color: white;
-
   text-transform: uppercase;
+}
 
+.lyrics{
+  width: 150%;
 }

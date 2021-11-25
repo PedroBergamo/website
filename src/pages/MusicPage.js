@@ -22,7 +22,9 @@ const MusicPage = (props) => {
   return(
     <div className="song">
           <h1>{fetchedSong.title}</h1>
-          <p></p>
+          {fetchedSong.lyrics.map((verse, i) => {
+            return <p className="lyrics">{verse}</p>
+          })}
     </div>
     );
 };

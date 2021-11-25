@@ -13,7 +13,7 @@ const MusicPage = (props) => {
   MusicList.forEach((item, i) => {
     if(ValidId === item.id){
       fetchedSong.title = item.title ? item.title: "No title given"
-      fetchedSong.lyrics = item.lyrics ? item.lyrics: "No title given"
+      fetchedSong.lyrics = item.lyrics ? item.lyrics: "No lyrics available"
       fetchedSong.video = item.video ? item.video: "No video given"
       fetchedSong.bandcamp = item.bandcamp ? item.bandcamp: "No content given"
     }

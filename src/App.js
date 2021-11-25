@@ -24,10 +24,12 @@ return (
     <div className="container">
     <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
       <nav className="menu">
-        <ul>
-          <li className="menu-item"><Link className="menu__link" to=
+        <ul className="menu">
+          <li><Link className="menu__link" to=
             "/bio">Bio</Link></li>
-          <li className="menu-item"><Link className="menu__link" to="/music">Music</Link></li>
+          <li><Link className="menu__link" to=
+          "/music">Music</Link></li>
+
        </ul>
         </nav>
     </div>

@@ -68,8 +68,8 @@ const Bio = () => {
              "Lago Brasil" and "Nós dois merecemos viver".
             </p>
             <p>
-            2020 was a hard year for the composer, due to the loss of a dear one. While visiting Brazil, he took confort in the work of <a className="text_link" href={ariano}
-            target="_blank" rel="noreferrer">"Ariano Suassuna"</a>, which inspired him to produce songs from
+            In 2020, influenced by the work of <a className="text_link" href={ariano}
+            target="_blank" rel="noreferrer">"Ariano Suassuna"</a>, he produced 3 songs from
             the "O Fantástico Circo de Aracnídea" infamous show, using only Brazilian instruments at OctoSonus Studios-São Paulo. The songs were "Abrahadabra", "Flores pelo céu" and
             "Feiticeiro Esteve Aqui".
             </p>

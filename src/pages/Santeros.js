@@ -10,7 +10,6 @@ var chemicalphysics = "https://www.sciencedirect.com/science/article/pii/S030101
 var chemistryc = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85020209527&origin=recordpage&featureToggles=FEATURE_VIEW_PDF:1";
 var natural = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85019731851&origin=recordpage&featureToggles=FEATURE_VIEW_PDF:1";
 var ariano = "https://en.wikipedia.org/wiki/Ariano_Suassuna";
-
 var anders = "https://www.ragnarcreative.com";
 
 const Bio = () => {

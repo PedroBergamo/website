@@ -1,3 +1,9 @@
+:root {
+    --santeria_red: #ff0000;
+    --santeria_orange: #FFAA3A;
+    --santeria_blue: #244244;
+    --santeria_gold: #956a1b;
+}
 
 body {
   font-family: "Roboto Condensed", sans-serif;

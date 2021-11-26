@@ -2,7 +2,6 @@ import React from 'react';
 import MusicList from "./content/MusicList.json"
 import {Redirect} from "react-router-dom"
 import "./pages.css"
-import { Container, Row, Col } from 'react-bootstrap';
 
 const MusicPage = (props) => {
   const ValidId = parseInt(props.match.params.id)
@@ -34,9 +33,9 @@ const MusicPage = (props) => {
             <p>© Aracnídea Records</p>
               <iframe className="video"
               src={fetchedSong.video} title="YouTube video player"
-              frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+              frameBorder="0" allow="accelerometer; autoplay; clipboard-write;
               encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="allowfullscreen"
+              allowFullScreen="allowfullscreen"
               mozallowfullscreen="mozallowfullscreen"
               msallowfullscreen="msallowfullscreen"
               oallowfullscreen="oallowfullscreen"

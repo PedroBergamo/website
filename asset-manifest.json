@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a22e90e.chunk.css",
-    "main.js": "/static/js/main.b71057af.chunk.js",
-    "main.js.map": "/static/js/main.b71057af.chunk.js.map",
+    "main.css": "/static/css/main.5b7ae51a.chunk.css",
+    "main.js": "/static/js/main.44ecec29.chunk.js",
+    "main.js.map": "/static/js/main.44ecec29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44b7d5e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.44b7d5e0.js.map",
-    "static/js/2.df5bd3b5.chunk.js": "/static/js/2.df5bd3b5.chunk.js",
-    "static/js/2.df5bd3b5.chunk.js.map": "/static/js/2.df5bd3b5.chunk.js.map",
+    "static/js/2.d73acd3a.chunk.js": "/static/js/2.d73acd3a.chunk.js",
+    "static/js/2.d73acd3a.chunk.js.map": "/static/js/2.d73acd3a.chunk.js.map",
     "static/js/3.ff9dc5a3.chunk.js": "/static/js/3.ff9dc5a3.chunk.js",
     "static/js/3.ff9dc5a3.chunk.js.map": "/static/js/3.ff9dc5a3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3a22e90e.chunk.css.map": "/static/css/main.3a22e90e.chunk.css.map",
-    "static/js/2.df5bd3b5.chunk.js.LICENSE.txt": "/static/js/2.df5bd3b5.chunk.js.LICENSE.txt",
-    "static/media/Logo2.da42b3cf.png": "/static/media/Logo2.da42b3cf.png",
-    "static/media/Santeros2.398c1bb6.jpg": "/static/media/Santeros2.398c1bb6.jpg",
+    "static/css/main.5b7ae51a.chunk.css.map": "/static/css/main.5b7ae51a.chunk.css.map",
+    "static/js/2.d73acd3a.chunk.js.LICENSE.txt": "/static/js/2.d73acd3a.chunk.js.LICENSE.txt",
+    "static/media/Abrahadabra.3ffefea2.png": "/static/media/Abrahadabra.3ffefea2.png",
+    "static/media/FloresPeloCeu.37de1b43.png": "/static/media/FloresPeloCeu.37de1b43.png",
+    "static/media/LagoBrasil.0417cd8b.jpg": "/static/media/LagoBrasil.0417cd8b.jpg",
+    "static/media/Logo261121.03a40add.png": "/static/media/Logo261121.03a40add.png",
+    "static/media/NosDoisMerecemosViver.571e0e77.png": "/static/media/NosDoisMerecemosViver.571e0e77.png",
+    "static/media/OFeiticeiroEsteveAqui.26a384d5.png": "/static/media/OFeiticeiroEsteveAqui.26a384d5.png",
+    "static/media/Santeros1.d89508d9.png": "/static/media/Santeros1.d89508d9.png",
     "static/media/index.css": "/static/media/Santo.337237da.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44b7d5e0.js",
-    "static/js/2.df5bd3b5.chunk.js",
-    "static/css/main.3a22e90e.chunk.css",
-    "static/js/main.b71057af.chunk.js"
+    "static/js/2.d73acd3a.chunk.js",
+    "static/css/main.5b7ae51a.chunk.css",
+    "static/js/main.44ecec29.chunk.js"
   ]
 }

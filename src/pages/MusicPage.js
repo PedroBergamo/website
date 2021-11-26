@@ -29,6 +29,19 @@ const MusicPage = (props) => {
             {fetchedSong.lyrics.map((verse, i) => {
               return <p key={i} className="lyrics">{verse}</p>
             })}
+            <p>*</p>
+            <p>Composer: Pedro Bergamo</p>
+            <p>© Aracnídea Records</p>
+              <iframe className="video"
+              src={fetchedSong.video} title="YouTube video player"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+              encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen">
+               </iframe>
           </div>
     );
 };

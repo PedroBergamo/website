@@ -3,7 +3,6 @@
 }
 
 .song{
-
   padding: 0 10%;
   text-align: center;
 }
@@ -20,7 +19,8 @@
   text-transform: uppercase;
 }
 
-.lyrics{
+.video{
+  width: 70%
 }
 
 .bandcamp{

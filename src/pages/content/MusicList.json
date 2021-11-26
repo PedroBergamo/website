@@ -15,9 +15,10 @@
     "as noites estão bem melhores em copiar o teu desdém","E a razão se vai também",
     "a luz apagada, a porta fechada, a boca colada em um outro alguém",
     "Eu me viro na cama toda madrugada sentindo tua alma, mas não há ninguém"],
-  "CoverArt": "NosDoisMerecemosViver.571e0e77.png"
+  "CoverArt": "NosDoisMerecemosViver.571e0e77.png",
+  "video":"https://www.youtube.com/embed/FWStO9MZzQ4"
 },
-{
+{    
   "id" : 2,
 	"title" : "Lago Brasil",
   "lyrics": ["O lago era vermelho brasa, o lago era vermelho brasa","Sempre que acabava o dia eu podia jurar que escutava",
@@ -61,7 +62,8 @@
 "Mesmo com anos de esforço seu corpo ninguém foi capaz de encontrar",
 "E se ainda duvidas, então lhe convido ao lago brasil retornar",
 "Esvazie sua mente e ouvirá claramente uma voz a inocente a cantar"],
-    "CoverArt": "LagoBrasil.0417cd8b.jpg"
+    "CoverArt": "LagoBrasil.0417cd8b.jpg",
+    "video": "https://www.youtube.com/embed/4qdJSMn3ISg"
 },
 {
   "id" : 3,
@@ -100,6 +102,7 @@
 "E me esvaziei (Não se vá)",
 "Meus braços eu abri (Não se vá)" ],
     "CoverArt": "Abrahadabra.3ffefea2.png",
+    "video": "https://www.youtube.com/embed/fMm1JMiDnns",
     "bandcamp": "2366630471"
 },
 {
@@ -122,6 +125,7 @@
 "E ela se entrega à luz do farol pouco antes de despertar sobre o lençol"
 ],
 "CoverArt": "FloresPeloCeu.37de1b43.png",
+"video":"https://www.youtube.com/embed/AAyLnz6R04s",
 "bandcamp": "1471844362"
 },
 {
@@ -158,4 +162,5 @@
 
 ],
   "CoverArt": "OFeiticeiroEsteveAqui.26a384d5.png",
+  "video": "https://www.youtube.com/embed/91Iy7s-69Eg",
   "bandcamp": "101063964"}]

@@ -2,7 +2,7 @@ import React from 'react';
 import MusicList from "./content/MusicList.json"
 import {Redirect} from "react-router-dom"
 import "./pages.css"
-
+import { Container, Row, Col } from 'react-bootstrap';
 
 const MusicPage = (props) => {
   const ValidId = parseInt(props.match.params.id)
@@ -20,12 +20,16 @@ const MusicPage = (props) => {
   });
 
   return(
-    <div className="song">
-          <h1>{fetchedSong.title}</h1>
-          {fetchedSong.lyrics.map((verse, i) => {
-            return <p className="lyrics">{verse}</p>
-          })}
-    </div>
+          <div key={fetchedSong.id} className="song">
+            <iframe className="bandcamp" title={fetchedSong.title}
+                src={`https://bandcamp.com/EmbeddedPlayer/track=${fetchedSong.bandcamp}/size=small/bgcol=000000/linkcol=999999/tracklist=false/transparent=true/`} seamless>
+              <a href={`https://pedrobergamo.bandcamp.com/track/${fetchedSong.title}`}>{fetchedSong.title}</a>
+            </iframe>
+            <h2>{fetchedSong.title}</h2>
+            {fetchedSong.lyrics.map((verse, i) => {
+              return <p key={i} className="lyrics">{verse}</p>
+            })}
+          </div>
     );
 };
 

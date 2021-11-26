@@ -55,7 +55,6 @@ export default class Navigation extends React.Component {
                       >
                         <span className="fa fa-youtube white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
-
                 </Nav>
             </Navbar>
         );

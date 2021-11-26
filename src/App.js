@@ -6,7 +6,8 @@ import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
-import useWindowSize from "./utils/useWindowSize.js";
+import NotFound from "./pages/NotFound.js"
+import MusicPage from "./pages/MusicPage.js";
 
 import {
       HashRouter, Switch, Route, Link
@@ -17,30 +18,27 @@ useEffect(() => {
   ReactGA.initialize('UA-211790415-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
 },[])
-  const { width } = useWindowSize();
 
-  return (
+return (
     <HashRouter>
-    {width < 1000 && (
-     <>
-       <div>
-       </div>
-     </>
-   )}
-
     <div className="container">
     <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
-        <nav className="menu">
-                <ul>
-                    <li className="menu-item"><Link className="menu__link" to="/bio">Bio</Link></li>
-                    <li className="menu-item"><Link className="menu__link" to="/music">Music</Link></li>
-                </ul>
+      <nav className="menu">
+        <ul className="menu">
+          <li><Link className="menu__link" to=
+            "/bio">Bio</Link></li>
+          <li><Link className="menu__link" to=
+          "/music">Music</Link></li>
+
+       </ul>
         </nav>
     </div>
     <Switch>
     <Route path="/bio" exact>
       <Santeros />
     </Route>
+    <Route path="/404" component={NotFound} />
+    <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
     <Route path="/music" exact>
       <Music />
     </Route>

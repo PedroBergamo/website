@@ -1,0 +1,29 @@
+.notfound{
+  text-align: center;
+}
+
+.song{
+  padding: 0 10%;
+  text-align: center;
+}
+
+.song-card{
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.link{
+  color: white;
+  text-transform: uppercase;
+}
+
+.video{
+  width: 70%
+}
+
+.bandcamp{
+  border: 0;
+  height: 5.0rem;
+}

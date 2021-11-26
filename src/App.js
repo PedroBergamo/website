@@ -1,17 +1,18 @@
 import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
-import CustomLogo from "./images/Logo2.png";
+import CustomLogo from "./images/Logo261121.png";
 import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
-
+import SocialMedia from "./components/SocialMedia.js"
 import {
       HashRouter, Switch, Route, Link
   } from 'react-router-dom';
+import "./index.css"
 
 function App() {
 useEffect(() => {
@@ -21,19 +22,19 @@ useEffect(() => {
 
 return (
     <HashRouter>
-    <div className="container">
-    <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
-      <nav className="menu">
-        <ul className="menu">
-          <li><Link className="menu__link" to=
-            "/bio">Bio</Link></li>
-          <li><Link className="menu__link" to=
-          "/music">Music</Link></li>
+    <div className="header">
+      <SocialMedia />
 
-       </ul>
-        </nav>
+    <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
+    <nav className="menu">
+            <li className="menu_link"><Link className="menu_link" to=
+              "/bio">Bio</Link></li>
+            <li className="menu_link"><Link className="menu_link" to=
+            "/music">Music</Link></li>
+
+          </nav>
     </div>
-    <Switch>
+      <Switch>
     <Route path="/bio" exact>
       <Santeros />
     </Route>

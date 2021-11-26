@@ -1,23 +1,20 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import "../index.css";
 
 const navObj = {
-    navStyle: {
-        fontSize: '1em',
-        float: 'center',
-    },
     brandStyle: {
         fontSize: '1.4em'
     },
     linkStyle: {
-      margin: "16px",
+      margin: "10px",
     }
 };
 
 export default class SocialMedia extends React.Component {
     render() {
         return (
-                <Nav className="center" style={navObj.navStyle}>
+                <Nav className="SocialMedia">
                     <Nav.Link
                         href="https://www.facebook.com/PedroBergamoOfficial/"
                         target="_blank"

@@ -39,8 +39,9 @@ body {
 
 h1 {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 48px;
-  color: white;
+  font-size: 72px;
+  line-height: 86px;
+  color: #FFFFFF;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
@@ -50,10 +51,20 @@ h1 {
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 32px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   margin: auto;
 
+  text-transform: uppercase;
+ line-height: 2.5em;
+}
+
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
   text-transform: uppercase;
  line-height: 1.5em;
 }
@@ -67,34 +78,9 @@ p {
   line-height: 1.5em;
 }
 
-.main > .container {
-  padding-top: 5rem;
-}
-
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-20px);
-  }
-}
-
-.bounce {
-  animation: bounce 1.2s ease 0s infinite alternate;
-}
-
 html, body {
     margin: 120;
     padding: 120;
-}
-
-.container {
-    }
-
-.center {
-    display: flex;
-    justify-content: center;
 }
 
 .hide {
@@ -104,37 +90,24 @@ html, body {
 .menu {
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
+    display: inline-block;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0px;
-    position: relative;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+
+  	text-align: center;
 }
 
-.menu__list {
-    list-style-type: none;
-    padding: 0;
-    height: 100%;
-    margin: 0;
-}
-
-.menu__link {
+.menu_link {
   display: inline-block;
   height: 100%;
-  margin: 0 auto;
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 auto;
-    padding: 0 30px;
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
 }
 
 .text_link {
-  color: #ffaa3b;
+  color: white;
     text-decoration: underline white;
 }
 
@@ -143,17 +116,29 @@ html, body {
     text-decoration: underline white;
 }
 
-.menu__link:hover {
+.menu_link:hover {
     color: #ffaa3b;
 }
 
-.menu__link:focus {
+.menu_link:focus {
     color: #ffaa3b;
 }
 
 .custom-logo{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 60%;
+  display: inline-block;
+	text-align: center;
+  padding: 10px 10%;
+}
+
+ul li{
+  list-style: none;
+}
+
+.display_inline{
+  display: inline-block;
+}
+
+.SocialMedia{
+  display: inline-block;
 }

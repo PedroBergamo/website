@@ -13,6 +13,16 @@
   text-decoration: none;
 }
 
+.bio {
+padding: 0 10%;
+}
+
+.header{
+  display: inline-block;
+  vertical-align: middle;
+	text-align: center;
+}
+
 .link{
   color: white;
   text-transform: uppercase;

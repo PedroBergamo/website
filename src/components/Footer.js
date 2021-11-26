@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialMedia from "./SocialMedia.js"
 
 const date = new Date();
 
@@ -25,12 +24,9 @@ const styles = {
 };
 
 export default class Footer extends React.Component {
-
     render(){
         return (
-
             <div style={styles.container}>
-                      <SocialMedia />
                 <footer style={styles.footer}>
                     <p>{footerObj.contact}</p>
                     <p>&copy; {footerObj.date} - {footerObj.name}</p>

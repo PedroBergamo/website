@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import band from "../images/Santeros2.jpg"
+import band from "../images/Santeros1.png"
+import "./pages.css"
+
 var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
 var furia = "https://www.youtube.com/watch?v=RJ8V-DpP1gM";
 var condor = "https://www.youtube.com/watch?v=Czu7Yc6Fnmo";
@@ -10,24 +11,10 @@ var chemicalphysics = "https://www.sciencedirect.com/science/article/pii/S030101
 var chemistryc = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85020209527&origin=recordpage&featureToggles=FEATURE_VIEW_PDF:1";
 var natural = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85019731851&origin=recordpage&featureToggles=FEATURE_VIEW_PDF:1";
 var ariano = "https://en.wikipedia.org/wiki/Ariano_Suassuna";
-var anders = "https://www.ragnarcreative.com";
 
 const Bio = () => {
   return(
-    <Container id="about">
-      <Row>
-      <Col xs={12} sm={6}>
-     <img src={band} width="100%" alt="Los Santeros" />
-     <p>Rolando Camilo - Drums & Vocals</p>
-     <p>Seppo Salmi - Electric Guitar</p>
-     <p>Pedro Bergamo - Acoustic Guitar & Vocals</p>
-     <a className="text_link" href={satu} target="_blank" rel="noreferrer">
-     <p>Satu Lankinen - Accordion & Vocals</p></a>
-    <p>Photo by <a className="text_link" href={anders}
-      target="_blank" rel="noreferrer">Anders Meinander</a> </p>
-     </Col>
-        <Col xs={12} sm={6}>
-
+    <div className="bio">
           <h1>Bio</h1>
             <p>
             Pedro Augusto de Souza Bergamo was born in Franca, a small city of shoemakers in the countryside of Brazil.
@@ -78,11 +65,14 @@ const Bio = () => {
             "Pedro Bergamo & Los Santeros" was born. The result is a mixture of sertanejo, Finnish folk and progressive
             rock.
             </p>
+            <img src={band} width="100%" alt="Los Santeros" />
+            <p>Rolando Camilo - Drums & Vocals</p>
+            <p>Seppo Salmi - Electric Guitar</p>
+            <p>Pedro Bergamo - Acoustic Guitar & Vocals</p>
+            <a className="text_link" href={satu} target="_blank" rel="noreferrer">
+            <p>Satu Lankinen - Accordion & Vocals</p></a>
 
-        </Col>
-
-      </Row>
-    </Container>
+        </div>
     );
 };
 

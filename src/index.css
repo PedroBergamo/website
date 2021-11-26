@@ -14,6 +14,10 @@ body {
   background-attachment: fixed;
   }
 
+@import url(//db.onlinewebfonts.com/c/2374d7c721fa48c5e2b06c3b2a9e6ba9?family=Knockout);
+
+@font-face {font-family: "Knockout"; src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot"); src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.svg#Knockout") format("svg"); }
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
@@ -38,7 +42,7 @@ body {
 }
 
 h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Knockout", sans-serif;
   font-size: 72px;
   line-height: 86px;
   color: #FFFFFF;
@@ -46,27 +50,34 @@ h1 {
   margin: auto;
   text-transform: uppercase;
   line-height: 1.5em;
+
+  letter-spacing: 5px;
 }
 
 h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 32px;
+  font-family: "Knockout", sans-serif;
+  font-size: 40px;
+
   color: #FFFFFF;
   text-align: center;
   margin: auto;
 
   text-transform: uppercase;
  line-height: 2.5em;
+
+ letter-spacing: 5px;
 }
 
 h4 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 28px;
+  font-family: "Knockout", sans-serif;
+  font-size: 32px;
   color: #FFFFFF;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
  line-height: 1.5em;
+
+ letter-spacing: 5px;
 }
 
 h3,
@@ -75,6 +86,7 @@ h5,
 p {
   color: white;
   font-size: large;
+
   line-height: 1.5em;
 }
 
@@ -98,6 +110,9 @@ html, body {
 
 .menu_link {
   display: inline-block;
+  font-family: "Knockout",sans-serif;
+
+ letter-spacing: 5px;
   height: 100%;
   color: white;
   font-size: 32px;

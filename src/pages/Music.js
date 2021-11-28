@@ -4,11 +4,11 @@ import MusicList from "./content/MusicList.json"
 import "./pages.css"
 import { Container, Row, Col } from "react-bootstrap";
 
-import NosDois from "../images/CoverArts/NosDoisMerecemosViver.png"
-import Flores from "../images/CoverArts/FloresPeloCeu.png"
-import Abrahadabra from "../images/CoverArts/Abrahadabra.png"
+import NosDois from "../images/CoverArts/NosDoisMerecemosViver.jpg"
+import Flores from "../images/CoverArts/FloresPeloCeu.jpg"
+import Abrahadabra from "../images/CoverArts/Abrahadabra.jpg"
 import LagoBrasil from "../images/CoverArts/LagoBrasil.jpg"
-import Feiticeiro from "../images/CoverArts/OFeiticeiroEsteveAqui.png"
+import Feiticeiro from "../images/CoverArts/OFeiticeiroEsteveAqui.jpg"
 
 function Music() {
   return (

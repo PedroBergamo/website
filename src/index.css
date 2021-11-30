@@ -86,7 +86,6 @@ h5,
 p {
   color: white;
   font-size: large;
-
   line-height: 1.5em;
 }
 
@@ -101,18 +100,16 @@ html, body {
 
 .menu {
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
+    border-radius: 80px;
     display: inline-block;
     height: 80px;
-
   	text-align: center;
 }
 
 .menu_link {
   display: inline-block;
   font-family: "Knockout",sans-serif;
-
- letter-spacing: 5px;
+  letter-spacing: 5px;
   height: 100%;
   color: white;
   font-size: 32px;
@@ -139,11 +136,17 @@ html, body {
     color: #ffaa3b;
 }
 
+.header{
+  display: inline-block;
+	text-align: center;
+  width: 100%;
+}
+
 .custom-logo{
   width: 40%;
   display: inline-block;
 	text-align: center;
-  padding: 10px 10%;
+  padding: 10px 13%;
 }
 
 ul li{

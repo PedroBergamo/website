@@ -14,6 +14,7 @@ function Music() {
   return (
     <Container>
       <Row>
+      <h1>Music</h1>
       <Col xs={12} sm={6}>
         <div className="song-card">
         <Link className="link" to={`music/${MusicList[4].id}`}>

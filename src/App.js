@@ -24,15 +24,13 @@ return (
     <HashRouter>
     <div className="header">
       <SocialMedia />
-
-    <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
-    <nav className="menu">
-            <li className="menu_link"><Link className="menu_link" to=
-              "/bio">Bio</Link></li>
-            <li className="menu_link"><Link className="menu_link" to=
-            "/music">Music</Link></li>
-
-          </nav>
+      <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
+      <nav className="menu">
+          <li className="menu_link"><Link className="menu_link" to=
+            "/bio">Bio</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/music">Music</Link></li>
+      </nav>
     </div>
       <Switch>
     <Route path="/bio" exact>

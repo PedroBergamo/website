@@ -137,6 +137,7 @@ html, body {
 }
 
 .header{
+  padding: 10px 16px;
   display: inline-block;
 	text-align: center;
   width: 100%;

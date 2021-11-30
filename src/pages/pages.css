@@ -13,11 +13,10 @@
   text-decoration: none;
 }
 
-.bio {
+.content {
   padding: 0 10%;
+  overflow: hidden;
 }
-
-
 
 .link{
   color: white;

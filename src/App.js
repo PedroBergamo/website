@@ -22,7 +22,7 @@ useEffect(() => {
 
 return (
     <HashRouter>
-    <div className="header">
+    <div className="header" id="myHeader">
       <SocialMedia />
       <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
       <nav className="menu">

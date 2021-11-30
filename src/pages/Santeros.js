@@ -15,7 +15,7 @@ var ariano = "https://en.wikipedia.org/wiki/Ariano_Suassuna";
 
 const Bio = () => {
   return(
-    <div className="bio">
+    <div className="content">
           <h1>Bio</h1>
             <p>
             Pedro Bergamo was born in Franca, a small city of shoemakers in the countryside of Brazil.

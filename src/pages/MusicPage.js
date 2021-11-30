@@ -24,7 +24,7 @@ const MusicPage = (props) => {
                 src={`https://bandcamp.com/EmbeddedPlayer/track=${fetchedSong.bandcamp}/size=small/bgcol=000000/linkcol=999999/tracklist=false/transparent=true/`} seamless>
               <a href={`https://pedrobergamo.bandcamp.com/track/${fetchedSong.title}`}>{fetchedSong.title}</a>
             </iframe>
-            <h2>{fetchedSong.title}</h2>
+            <h1>{fetchedSong.title}</h1>
             {fetchedSong.lyrics.map((verse, i) => {
               return <p key={i} className="lyrics">{verse}</p>
             })}

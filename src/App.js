@@ -8,7 +8,8 @@ import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
-import SocialMedia from "./components/SocialMedia.js"
+import SocialMedia from "./components/SocialMedia.js";
+import science from "./pages/science.js";
 import {
       HashRouter, Switch, Route, Link
   } from 'react-router-dom';
@@ -27,9 +28,12 @@ return (
       <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
       <nav className="menu">
           <li className="menu_link"><Link className="menu_link" to=
-            "/bio">Bio</Link></li>
+            "/bio">Los Santeros</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/science">CV</Link></li>
+
       </nav>
     </div>
       <Switch>
@@ -38,6 +42,7 @@ return (
     </Route>
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
+    <Route path="/science" component={science} />
     <Route path="/music" exact>
       <Music />
     </Route>

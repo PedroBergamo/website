@@ -28,8 +28,6 @@ return (
       <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
       <nav className="menu">
           <li className="menu_link"><Link className="menu_link" to=
-            "/bio">Los Santeros</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
           "/science">CV</Link></li>

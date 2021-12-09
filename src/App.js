@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
 import SocialMedia from "./components/SocialMedia.js";
 import science from "./pages/science.js";
+import wallpapers from "./pages/wallpapers.js";
 import {
       HashRouter, Switch, Route, Link
   } from 'react-router-dom';
@@ -31,6 +32,8 @@ return (
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
           "/science">CV</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/wallpapers">Wallpapers</Link></li>
 
       </nav>
     </div>
@@ -50,6 +53,7 @@ return (
     <Route path="/services" exact>
       <Services />
     </Route>
+    <Route path="/wallpapers" component={wallpapers} />
     </Switch>
       <Footer a id="f"/>
     </HashRouter>

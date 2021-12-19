@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
 import CustomLogo from "./images/MarkWhite.png";
-import Santeros from "./pages/Santeros.js";
+import Santeros from "./pages/santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
@@ -12,7 +12,7 @@ import SocialMedia from "./components/SocialMedia.js";
 import science from "./pages/science.js";
 import wallpapers from "./pages/wallpapers.js";
 import {
-      HashRouter, Switch, Route, Link
+      HashRouter, Switch, Route, Link, Redirect
   } from 'react-router-dom';
 import "./index.css"
 
@@ -31,14 +31,19 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/science">CV</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
           "/wallpapers">Wallpapers</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/santeros">Los Santeros</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/science">CV</Link></li>
 
       </nav>
     </div>
-      <Switch>
-    <Route path="/bio" exact>
+    <Switch>
+    <Route exact path="/">
+2      <Redirect to="/santeros" />
+3   </Route>
+    <Route path="/santeros" exact>
       <Santeros />
     </Route>
     <Route path="/404" component={NotFound} />

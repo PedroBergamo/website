@@ -22,7 +22,6 @@ function wallpapers() {
           </Col>
       </Row>
     </Container>
-
           );
         }
 

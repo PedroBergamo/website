@@ -53,8 +53,8 @@ const Santeros = () => {
         influenced by Brazilian singer-songwriters like Almir Sater and Zé Ramalho.
         When a friend was putting together a magician act he wrote and performed a set of
         original songs for the act. At one of the rehearsals, one magician explained
-        to him the chemistry behind a certain magic trick, which led him to study chemistry
-          <Link target="_blank" className="text_link" to="science">CV</Link>) and move
+        to him the chemistry behind a certain magic trick, which led him to pursue a career in
+          <Link target="_blank" className="text_link" to="science">science</Link> and move
         to Finland to pursue a Ph.D..
         In Finland, he met the Finnish EDM producer Joel Lindfors, who produced and released his compositions
         <Link target="_blank" className="text_link" to="music/2">"Lago Brasil"</Link> and
@@ -67,7 +67,8 @@ const Santeros = () => {
         </p> <p>
         In 2021, he met Rolando Camilo, a Chilean drummer, percussionist and producer living in Helsinki,
         and they formed Los Santeros to focus only on Pedro's originals. Later on he brought the Fnnishs
-        accordionist Satu Lankinen and the Finnish Guitarrist Seppo Salmi, who shared a folk/punk band together previously.
+        accordionist Satu Lankinen and the Finnish Guitarrist Seppo Salmi, who
+        shared a folk/punk band together previously. They are currently on studio producing their debut album.
         </p>
         </div>
     );

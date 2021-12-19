@@ -2,8 +2,6 @@ import React from 'react';
 import "./pages.css"
 import {Link} from "react-router-dom"
 import cv from "../Resources/CV.pdf"
-
-var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
 var chemistry = "https://www.sciencedirect.com/science/article/pii/S0022231316305737";
 var chemicalphysics = "https://www.sciencedirect.com/science/article/pii/S0301010416301501";
 var chemistryc = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85020209527&origin=recordpage&featureToggles=FEATURE_VIEW_PDF:1";
@@ -16,13 +14,6 @@ const Science = () => {
           <h1>CV</h1>
           <p>
           For a resumed version of my résumé, please click <a className="text_link" download="BergamoCV.pdf" href={cv} rel="noreferrer" target="_blank" >here</a>.
-          </p>
-          <p>
-          My name is Pedro Bergamo and I was born in Franca, a small city of shoemakers in the countryside of Brazil.
-          I was named after my grandfather, who was a "Benzedor" (the Brazilian equivalent to the Afro-Caribbean "Santero").
-          I am the youngest biological son of Pedro Bergamo and nephew of Antonio Bergamo from the Sertanejo duo <a
-          className="text_link" href={canario_passarinho} target="_blank" rel="noreferrer">
-          "Canário e Passarinho"</a>.
           </p>
             <p>
             When young, I wanted to be many things but a scientist was never one of them.

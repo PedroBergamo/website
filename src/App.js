@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
 import CustomLogo from "./images/MarkWhite.png";
-import Santeros from "./pages/santeros.js";
+import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
@@ -15,6 +15,7 @@ import {
       HashRouter, Switch, Route, Link, Redirect
   } from 'react-router-dom';
 import "./index.css"
+
 
 function App() {
 useEffect(() => {

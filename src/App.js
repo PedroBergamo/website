@@ -1,21 +1,18 @@
 import React, {useEffect} from 'react';
 import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
-import CustomLogo from "./images/MarkWhite.png";
 import Santeros from "./pages/Santeros.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Services from "./pages/Services.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
-import SocialMedia from "./components/SocialMedia.js";
 import science from "./pages/science.js";
 import wallpapers from "./pages/wallpapers.js";
 import {
       HashRouter, Switch, Route, Link, Redirect
   } from 'react-router-dom';
 import "./index.css"
-
 
 function App() {
 useEffect(() => {
@@ -26,24 +23,21 @@ useEffect(() => {
 return (
     <HashRouter>
     <div className="header" id="myHeader">
-      <SocialMedia />
-      <img className="custom-logo" src={CustomLogo} alt="Custom Logo"></img>
+    <h2>Pedro Bergamo</h2>
       <nav className="menu">
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/wallpapers">Wallpapers</Link></li>
+          "/santeros">Book me</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/santeros">Los Santeros</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
-          "/science">CV</Link></li>
-
+          "/science">About</Link></li>
       </nav>
     </div>
+
     <Switch>
     <Route exact path="/">
-2      <Redirect to="/santeros" />
-3   </Route>
+      <Redirect to="/santeros" />
+   </Route>
     <Route path="/santeros" exact>
       <Santeros />
     </Route>
@@ -61,7 +55,7 @@ return (
     </Route>
     <Route path="/wallpapers" component={wallpapers} />
     </Switch>
-      <Footer a id="f"/>
+    <Footer a id="f"/>
     </HashRouter>
   );
 }

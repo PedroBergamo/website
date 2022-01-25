@@ -4,7 +4,7 @@
 
 .song{
   padding: 0 10%;
-  text-align: center;
+  margin-top: 5%;
 }
 
 .song-card{
@@ -13,21 +13,35 @@
   text-decoration: none;
 }
 
-.content {
-  padding: 0 10%;
-  overflow: hidden;
-}
-
 .link{
   color: white;
   text-transform: uppercase;
 }
 
 .video{
-  width: 70%;
+  width : 100%;
+}
+
+.music-row{
+  margin-top: 5%;
+
+}
+.last-column{
+  margin-bottom: 10%;
+}
+
+.BookMe h1{
+  text-align: left;
+
+    padding: 0 10%;
+  color: Black;
+}
+
+.content{
 }
 
 .bandcamp{
+  padding: 0 10%;
   border: 0;
   height: 5.0rem;
 }

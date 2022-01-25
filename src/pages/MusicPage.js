@@ -20,10 +20,7 @@ const MusicPage = (props) => {
 
   return(
           <div key={fetchedSong.id} className="song">
-            <iframe className="bandcamp" title={fetchedSong.title}
-                src={`https://bandcamp.com/EmbeddedPlayer/track=${fetchedSong.bandcamp}/size=small/bgcol=000000/linkcol=999999/tracklist=false/transparent=true/`} seamless>
-              <a href={`https://pedrobergamo.bandcamp.com/track/${fetchedSong.title}`}>{fetchedSong.title}</a>
-            </iframe>
+
             <h1>{fetchedSong.title}</h1>
             {fetchedSong.lyrics.map((verse, i) => {
               return <p key={i} className="lyrics">{verse}</p>
@@ -31,6 +28,10 @@ const MusicPage = (props) => {
             <p>*</p>
             <p>Composer: Pedro Bergamo</p>
             <p>© Aracnídea Records</p>
+            <iframe className="bandcamp" title={fetchedSong.title}
+                src={`https://bandcamp.com/EmbeddedPlayer/track=${fetchedSong.bandcamp}/size=small/bgcol=000000/linkcol=999999/tracklist=false/transparent=true/`} seamless>
+              <a href={`https://pedrobergamo.bandcamp.com/track/${fetchedSong.title}`}>{fetchedSong.title}</a>
+            </iframe>
               <iframe className="video"
               src={fetchedSong.video} title="YouTube video player"
               frameBorder="0" allow="accelerometer; autoplay; clipboard-write;

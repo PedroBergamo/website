@@ -14,7 +14,17 @@ const navObj = {
 export default class SocialMedia extends React.Component {
     render() {
         return (
+          <div>
+          <h4>Keep in touch</h4>
                 <Nav className="SocialMedia">
+                <Nav.Link
+                    href="https://www.instagram.com/pedro.bergamo/"
+                    target="_blank"
+                    alt="Instagram"
+                    style={navObj.linkStyle}
+                  >
+                    <span className="fa fa-instagram white" style={{fontSize: '24px'}}></span>
+                </Nav.Link>
                     <Nav.Link
                         href="https://www.facebook.com/PedroBergamoOfficial/"
                         target="_blank"
@@ -31,14 +41,7 @@ export default class SocialMedia extends React.Component {
                       >
                         <span className="fa fa-youtube white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
-                    <Nav.Link
-                        href="https://www.instagram.com/pedro.bergamo/"
-                        target="_blank"
-                        alt="Instagram"
-                        style={navObj.linkStyle}
-                      >
-                        <span className="fa fa-instagram white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
+
                     <Nav.Link
                         href="https://open.spotify.com/artist/3mRWEl21jxyttpZH1s7TSd?si=7108dad7994b415c"
                         target="_blank"
@@ -56,6 +59,7 @@ export default class SocialMedia extends React.Component {
                         <span className="fa fa-bandcamp white" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                 </Nav>
+                </div>
         );
     }
 }

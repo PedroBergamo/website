@@ -2,15 +2,16 @@ import React from 'react';
 import "./pages.css";
 import {Col} from "react-bootstrap";
 import BookMeBanner from "../images/BookMe2.jpg"
+import {Link} from "react-router-dom"
 
 const Santeros = () => {
   return(
     <div className="BookMe" >
     <img src={BookMeBanner} width="100%" height= "30%" alt="BookMeBanner"></img>
         <Col xs={12} md={8}>
-        <h1>" Soulfull, mystical and danceable. It is like a cool gypsy band. A hidden gem in Helsinki that everyone should experience!" - Elina</h1>
-        <p>Pedro Bergamo is a Brazilian singer and multi-instrumentist based in Helsinki - Finland. He has a vast repertoire of Brazilian, latin and rock music, besides his original tunes.
-        No matter the size of your event, Pedro will surely be a warm addition to your party. He can play solo (acoustic guitar and voice) or with a whole group.</p>
+        <h1>" Soulfull, mystical and danceable. It is like a cool gypsy band. A hidden gem in Helsinki that everyone should know about!" - Elina</h1>
+        <p>Pedro Bergamo is a Brazilian singer and multi-instrumentist based in Helsinki - Finland. He has a vast repertoire of Brazilian, latin and rock music, besides his <Link className= "text_link" target="_blank" to="/music">original tunes</Link>.
+        No matter the size of your event, you can hire Pedro to bring your party to a whole new level. He can play solo (acoustic guitar and voice) or with his group of Finnish mystics: "Los Santeros" .</p>
         <h1>Contact for gigs:</h1>
         <p>phone: (+358)406740101</p>
         <p>email: pedrobergamo89@gmail.com</p>

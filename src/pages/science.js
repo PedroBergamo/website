@@ -20,14 +20,16 @@ const Science = () => {
           <h1>Pedro's story</h1>
           <p>
           Pedro Bergamo is a musician, graphic designer, programmer and marketing especialist based in Helsinki-Finland.
-          Born in 1989, he was raised by his mom and step-dad in a poor neighbourhood of Franca-Brazil. He is biological son of Pedro Bergamo from the Sertanejo duo <a
+          Born in 1989, he was raised by his mom and step-dad in a poor neighbourhood of Franca-Brazil. He is the third biological son of Pedro Bergamo from the Sertanejo duo <a
         className="text_link" href={canario_passarinho} target="_blank" rel="noreferrer">
         "Canário e Passarinho"</a>.
-          When young, he was deeply involved with the church and even studied to become a pastor, due to his interest in spirituality, mythology and ancient history.
-          He was also passionate about astronomy which led him to the work of Carl Sagan and Isaac Asimov.
+        </p>
+        <p>
+          When young, he was deeply involved with the church and even studied to become a pastor due to his interest in spirituality, mythology and ancient history.
+          He was also passionate about astronomy, which led him to the work of Carl Sagan and Isaac Asimov.
           </p>
           <p>
-          When he was 17, his uncle convinced him to study chemistry, after noticing his interest in Asimov who was a chemist himself.
+          When he was 17, his uncle convinced him to study chemistry, after noticing his interest in Asimov, who was a chemist himself.
           In the third year of his studies, he
           got an internship in the department of
           computational chemistry of the University of Franca, receiving a grant to do a Master's Degree and publishing his research in the <a className="text_link" href={chemistry}
@@ -35,19 +37,18 @@ const Science = () => {
           target="_blank" rel="noreferrer">"Chemical Physics"</a>, <a className="text_link" href={chemistryc}
           target="_blank" rel="noreferrer">"Journal of Physical Chemistry C"</a> and <a className="text_link" href={natural}
           target="_blank" rel="noreferrer">"Natural Products Communications"</a>.
-          In this period, while still working as a producer and marketing specilist in his father's radio show, he taught chemistry for one year,
-          before moving to Finland to pursue a PhD in 2017.
+          In this period, while working as a producer and marketing specialist in the morning for a radio show focused in Brazilian country music, he would teach chemistry during the night for high school students.
+          In 2017 he moved to Finland to pursue a PhD.
           </p>
           <p>
           In Finland, he got a position as a researcher in modelling and simulation, programming the
           chemistry behind the simulators used in the training of process operators. He is the main author of a review on thoses types of simulations published in
            <a className="text_link" href={minerals}
           target="_blank" rel="noreferrer">"Minerals Engineering"</a>.
-          After two years as a programmer and teacher, he felt the need to go back to marketing and front-end development, so he
+          After two years as a programmer and teacher, he heard a call to go back to marketing and working with people, so he
           moved to Helsinki to work at the "Digital Solutions" team of now Metso-Outotec, focusing on
-          graphic design, front-end development, UX design, 3d modelling and game development.
-          In this site you can find some samples of his work in
-          Graphic design: <Link className= "text_link" target="_blank" to="/music">graphic design</Link> and <a className="text_link" href={fs}
+          graphic design, front-end development, UX design, 3d modelling and game development. Since 2021 he works as a freelancer.
+          Here you can find some samples of his work in <Link className= "text_link" target="_blank" to="/music">graphic design</Link> and <a className="text_link" href={fs}
           target="_blank" rel="noreferrer">UX, game development</a>.
           </p>
           </Col>

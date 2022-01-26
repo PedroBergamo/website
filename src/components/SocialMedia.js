@@ -14,8 +14,8 @@ const navObj = {
 export default class SocialMedia extends React.Component {
     render() {
         return (
-          <div>
-          <h4>Keep in touch</h4>
+          <div className="social-media">
+          <h4>Contact the Witch Doctor</h4>
                 <Nav className="SocialMedia">
                 <Nav.Link
                     href="https://www.instagram.com/pedro.bergamo/"

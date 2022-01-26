@@ -2,6 +2,7 @@ import React from 'react';
 import MusicList from "./content/MusicList.json"
 import {Redirect} from "react-router-dom"
 import "./pages.css"
+import {Col} from "react-bootstrap"
 
 const MusicPage = (props) => {
   const ValidId = parseInt(props.match.params.id)
@@ -12,7 +13,9 @@ const MusicPage = (props) => {
   MusicList.forEach((item, i) => {
     if(ValidId === item.id){
       fetchedSong.title = item.title ? item.title: "No title given"
+      fetchedSong.englishtitle = item.englishtitle ? item.englishtitle: "No title given"
       fetchedSong.lyrics = item.lyrics ? item.lyrics: "No lyrics available"
+      fetchedSong.translation = item.translation ? item.translation: "No translation available"
       fetchedSong.video = item.video ? item.video: "No video given"
       fetchedSong.bandcamp = item.bandcamp ? item.bandcamp: "No content given"
     }
@@ -20,12 +23,19 @@ const MusicPage = (props) => {
 
   return(
           <div key={fetchedSong.id} className="song">
-
-            <h1>{fetchedSong.title}</h1>
-            {fetchedSong.lyrics.map((verse, i) => {
-              return <p key={i} className="lyrics">{verse}</p>
-            })}
-            <p>*</p>
+          <Col xs={8} md={6}>
+          <h1>{fetchedSong.title}</h1>
+          {fetchedSong.lyrics.map((verse, i) => {
+            return <p key={i} className="lyrics">{verse}</p>
+          })}
+          </Col>
+          <Col xs={8} md={6}>
+          <h1>{fetchedSong.englishtitle}</h1>
+          {fetchedSong.translation.map((verse, i) => {
+            return <p key={i} className="lyrics">{verse}</p>
+          })}
+          </Col>
+            <p>&nbsp;</p>
             <p>Composer: Pedro Bergamo</p>
             <p>© Aracnídea Records</p>
             <iframe className="bandcamp" title={fetchedSong.title}

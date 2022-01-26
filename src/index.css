@@ -141,8 +141,8 @@ html, body {
 
 .footer {
 background-color: black;
-    text-align: center;
-    clear: both;
+text-align: center;
+clear: both;
 position: relative;
 height: 200px;
 margin-top: -200px;
@@ -172,6 +172,6 @@ ul li{
   display: inline-block;
 }
 
-.SocialMedia{
-  display: inline-block;
+.social-media{
+padding-top: 2rem ;
 }

@@ -14,13 +14,11 @@ const footerObj = {
 export default class Footer extends React.Component {
     render(){
         return (
-            <div>
                 <footer className= "footer" >
                     <SocialMedia/>
                     <p>{footerObj.contact}</p>
                     <p>&copy; {footerObj.date} - {footerObj.name}</p>
                 </footer>
-            </div>
         );
     }
 }

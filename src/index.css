@@ -100,12 +100,6 @@ html, body {
     display: inline-block;
 }
 
-.header h2 {
-  color: white;
-  width: 40%;
-  display: inline-block;
-  text-align: center;
-}
 
 .menu_link {
   display: inline-block;
@@ -137,6 +131,16 @@ html, body {
 .header{
   width: 100%;
   background-color: black;
+
+  text-align: center;
+}
+
+.header h2 {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
 }
 
 .footer {
@@ -145,7 +149,7 @@ text-align: center;
 clear: both;
 position: relative;
 height: 200px;
-margin-top: -200px;
+margin-top: 2rem;
 }
 
 .footer p {

@@ -15,7 +15,7 @@ export default class SocialMedia extends React.Component {
     render() {
         return (
           <div className="social-media">
-          <h4>Contact the Witch Doctor</h4>
+          <h4>Connect with the mystic</h4>
                 <Nav className="SocialMedia">
                 <Nav.Link
                     href="https://www.instagram.com/pedro.bergamo/"

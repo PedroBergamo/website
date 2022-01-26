@@ -6,13 +6,12 @@
 }
 
 html, body {
-
+  min-height:100%;
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: white;
-    margin-bottom: 20%;
   }
 
 @import url(//db.onlinewebfonts.com/c/2374d7c721fa48c5e2b06c3b2a9e6ba9?family=Knockout);
@@ -91,8 +90,6 @@ p {
 }
 
 html, body {
-    margin: 120;
-    padding: 120;
 }
 
 .hide {
@@ -144,12 +141,11 @@ html, body {
 
 .footer {
 background-color: black;
-position:fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
     text-align: center;
-    margin-top: 5%;
+    clear: both;
+position: relative;
+height: 200px;
+margin-top: -200px;
 }
 
 .footer p {

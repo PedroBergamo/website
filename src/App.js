@@ -30,7 +30,7 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/santeros">Book me</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/science">About</Link></li>
+          "/about">About</Link></li>
       </nav>
     </div>
 
@@ -43,7 +43,7 @@ return (
     </Route>
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
-    <Route path="/science" component={science} />
+    <Route path="/about" component={science} />
     <Route path="/music" exact>
       <Music />
     </Route>

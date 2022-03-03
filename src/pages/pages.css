@@ -27,7 +27,7 @@
 
 }
 .last-column{
-  margin-bottom: 10%;
+  margin: 5% 0%;
 }
 
 .BookMe h1{
@@ -38,6 +38,7 @@
 }
 
 .content{
+  padding: 0 10%;
 }
 
 .bandcamp{

@@ -37,7 +37,7 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/about">About</Link></li>
+          "/about">Bio</Link></li>
       </nav>
     </div>
 

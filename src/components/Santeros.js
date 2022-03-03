@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default class About extends React.Component {
+export default class Santeros extends React.Component {
   render() {
     return (
-      <Container id="about">
+      <Container id="Santeros">
         <h1>Los Santeros</h1>
         <Row className="show-grid">
           <Col xs={12} sm={6}>

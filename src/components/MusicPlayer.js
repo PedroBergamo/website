@@ -4,7 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 const BandCamp = {
     song1: 'https://bandcamp.com/EmbeddedPlayer/track=101063964/size=small/bgcol=ffffff/linkcol=000000/tracklist=false/transparent=true/',
     song2: 'https://bandcamp.com/EmbeddedPlayer/track=1471844362/size=small/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
-    song3: 'https://bandcamp.com/EmbeddedPlayer/track=2366630471/size=small/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/'
+    song3: 'https://bandcamp.com/EmbeddedPlayer/track=2366630471/size=small/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/',
+    imigrante: 'https://bandcamp.com/EmbeddedPlayer/track=2965750530/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/'
 };
 const style = {
     border: '0',

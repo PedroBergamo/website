@@ -16,6 +16,11 @@ body {
 
 @import url(//db.onlinewebfonts.com/c/2374d7c721fa48c5e2b06c3b2a9e6ba9?family=Knockout);
 
+@font-face {
+  font-family: 'Optimusprinceps';
+  src: url('./fonts/optimusprinceps/OptimusPrinceps.ttf');
+}
+
 @font-face {font-family: "Knockout"; src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot"); src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.svg#Knockout") format("svg"); }
 
 @font-face {
@@ -39,7 +44,7 @@ body {
 }
 
 h1 {
-  font-family: "knockout", sans-serif;
+  font-family: "OptimusPrinceps", sans-serif;
   font-size: 50px;
   line-height: 86px;
   color: black;
@@ -52,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-family: "knockout", sans-serif;
+  font-family: "OptimusPrinceps", sans-serif;
   font-size: 32px;
 
   color: #FFFFFF;
@@ -103,7 +108,7 @@ html, body {
 
 .menu_link {
   display: inline-block;
-  font-family: "Knockout",sans-serif;
+  font-family: "optimusprinceps",sans-serif;
   letter-spacing: 5px;
   color: white;
   font-size: 24px;

@@ -37,18 +37,13 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/santeros">Book me</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
           "/about">About</Link></li>
       </nav>
     </div>
 
     <Switch>
     <Route exact path="/">
-      <Redirect to="/santeros" />
-   </Route>
-    <Route path="/santeros" exact>
-      <Santeros />
+      <Redirect to="/about" />
     </Route>
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />

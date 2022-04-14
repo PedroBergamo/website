@@ -1,36 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2ff8e0b.chunk.css",
-    "main.js": "/static/js/main.90349be9.chunk.js",
-    "main.js.map": "/static/js/main.90349be9.chunk.js.map",
+    "main.css": "/static/css/main.05e40647.chunk.css",
+    "main.js": "/static/js/main.b3b7ac3f.chunk.js",
+    "main.js.map": "/static/js/main.b3b7ac3f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70082ff7.js",
     "runtime-main.js.map": "/static/js/runtime-main.70082ff7.js.map",
-    "static/js/2.d86bd328.chunk.js": "/static/js/2.d86bd328.chunk.js",
-    "static/js/2.d86bd328.chunk.js.map": "/static/js/2.d86bd328.chunk.js.map",
+    "static/js/2.01a123e1.chunk.js": "/static/js/2.01a123e1.chunk.js",
+    "static/js/2.01a123e1.chunk.js.map": "/static/js/2.01a123e1.chunk.js.map",
     "static/js/3.92a17c53.chunk.js": "/static/js/3.92a17c53.chunk.js",
     "static/js/3.92a17c53.chunk.js.map": "/static/js/3.92a17c53.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f2ff8e0b.chunk.css.map": "/static/css/main.f2ff8e0b.chunk.css.map",
-    "static/js/2.d86bd328.chunk.js.LICENSE.txt": "/static/js/2.d86bd328.chunk.js.LICENSE.txt",
-    "static/media/About.1b545e7d.jpg": "/static/media/About.1b545e7d.jpg",
+    "static/css/main.05e40647.chunk.css.map": "/static/css/main.05e40647.chunk.css.map",
+    "static/js/2.01a123e1.chunk.js.LICENSE.txt": "/static/js/2.01a123e1.chunk.js.LICENSE.txt",
     "static/media/Abrahadabra.b7149eaa.jpg": "/static/media/Abrahadabra.b7149eaa.jpg",
     "static/media/Abrahadabra.c06d2572.png": "/static/media/Abrahadabra.c06d2572.png",
-    "static/media/CV.8850a4f0.pdf": "/static/media/CV.8850a4f0.pdf",
     "static/media/Feiticeiro.8e000701.png": "/static/media/Feiticeiro.8e000701.png",
     "static/media/Flores.1173278f.png": "/static/media/Flores.1173278f.png",
     "static/media/FloresPeloCeu.9909704c.jpg": "/static/media/FloresPeloCeu.9909704c.jpg",
+    "static/media/index.css": "/static/media/Mark_background.95186ea6.png",
     "static/media/Imigrante.9c787e1f.jpg": "/static/media/Imigrante.9c787e1f.jpg",
     "static/media/LagoBrasil.4fc954ef.png": "/static/media/LagoBrasil.4fc954ef.png",
     "static/media/LagoBrasil.a0bee1d6.jpg": "/static/media/LagoBrasil.a0bee1d6.jpg",
     "static/media/NosDoisMerecemosViver.14617ca9.jpg": "/static/media/NosDoisMerecemosViver.14617ca9.jpg",
     "static/media/OFeiticeiroEsteveAqui.0cf8ff2d.jpg": "/static/media/OFeiticeiroEsteveAqui.0cf8ff2d.jpg",
-    "static/media/index.css": "/static/media/OptimusPrinceps.20e67508.ttf",
-    "static/media/music-banner.d38c3c43.jpg": "/static/media/music-banner.d38c3c43.jpg"
+    "static/media/Pedro_candle.a8f46d35.jpg": "/static/media/Pedro_candle.a8f46d35.jpg",
+    "static/media/logo.eca0ef9c.png": "/static/media/logo.eca0ef9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70082ff7.js",
-    "static/js/2.d86bd328.chunk.js",
-    "static/css/main.f2ff8e0b.chunk.css",
-    "static/js/main.90349be9.chunk.js"
+    "static/js/2.01a123e1.chunk.js",
+    "static/css/main.05e40647.chunk.css",
+    "static/js/main.b3b7ac3f.chunk.js"
   ]
 }

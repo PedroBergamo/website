@@ -5,6 +5,9 @@ html, body {
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: white;
+ background-image: url("./images/Logos/Mark_background.png");
+ background-repeat:no-repeat;
+ background-position: center center;
   }
 
 @font-face {

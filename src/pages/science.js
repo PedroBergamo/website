@@ -2,7 +2,7 @@ import React from 'react';
 import "./pages.css"
 import {Link} from "react-router-dom"
 import cv from "../Resources/CV.pdf";
-import AboutBanner from "../images/About.jpg"
+import AboutBanner from "../images/Banner/About.jpg"
 import {Col} from "react-bootstrap";
 var chemistry = "https://www.sciencedirect.com/science/article/pii/S0022231316305737";
 var chemicalphysics = "https://www.sciencedirect.com/science/article/pii/S0301010416301501";
@@ -11,6 +11,7 @@ var natural = "https://www.scopus.com/record/display.uri?eid=2-s2.0-85019731851&
 var minerals = "https://www.sciencedirect.com/science/article/abs/pii/S089268752100501X";
 var fs = "http://www.flotation-simulator.com"
 var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
+
 
 const Science = () => {
   return(

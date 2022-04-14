@@ -1,10 +1,3 @@
-:root {
-    --santeria_red: #ff0000;
-    --santeria_orange: #FFAA3A;
-    --santeria_blue: #244244;
-    --santeria_gold: #956a1b;
-}
-
 html, body {
   min-height:100%;
 }
@@ -14,14 +7,10 @@ body {
   background-color: white;
   }
 
-@import url(//db.onlinewebfonts.com/c/2374d7c721fa48c5e2b06c3b2a9e6ba9?family=Knockout);
-
 @font-face {
-  font-family: 'Optimusprinceps';
-  src: url('./fonts/optimusprinceps/OptimusPrinceps.ttf');
+  font-family: 'Hatolie';
+  src: url('./fonts/Hatolie.ttf');
 }
-
-@font-face {font-family: "Knockout"; src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot"); src: url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2374d7c721fa48c5e2b06c3b2a9e6ba9.svg#Knockout") format("svg"); }
 
 @font-face {
   font-family: 'Roboto Condensed';
@@ -44,27 +33,24 @@ body {
 }
 
 h1 {
-  font-family: "OptimusPrinceps", sans-serif;
-  font-size: 50px;
+  font-family: "Hatolie", sans-serif;
+  font-size: 32px;
   line-height: 86px;
   color: black;
   text-align: left;
   padding: 0 10%;
   margin: auto;
-  text-transform: uppercase;
   line-height: 1.5em;
   letter-spacing: 5px;
 }
 
 h2 {
-  font-family: "OptimusPrinceps", sans-serif;
-  font-size: 32px;
+  font-family: "Hatolie", sans-serif;
+  font-size: 24px;
 
   color: #FFFFFF;
   text-align: center;
   margin: auto;
-
-  text-transform: uppercase;
  line-height: 2.5em;
 
  letter-spacing: 5px;
@@ -72,7 +58,7 @@ h2 {
 
 h4 {
 
-    font-family: "georgia", sans-serif;
+    font-family: "Hatolie", sans-serif;
   font-size: 32px;
   color: #FFFFFF;
   text-align: center;
@@ -108,12 +94,11 @@ html, body {
 
 .menu_link {
   display: inline-block;
-  font-family: "optimusprinceps",sans-serif;
+  font-family: "Hatolie",sans-serif;
   letter-spacing: 5px;
   color: white;
   font-size: 24px;
   text-decoration: none;
-  text-transform: uppercase;
   padding: 0 10px;
 }
 
@@ -145,7 +130,11 @@ html, body {
   width: 100%;
   display: inline-block;
   text-align: center;
+}
 
+.col_content {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .footer {
@@ -154,7 +143,7 @@ text-align: center;
 clear: both;
 position: relative;
 height: 200px;
-margin-top: 2rem;
+margin-top: 3rem;
 }
 
 .footer p {
@@ -164,7 +153,6 @@ color:white;
 .footer h4 {
 color:white;
 }
-
 
 .custom-logo{
   width: 40%;

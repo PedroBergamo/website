@@ -6,6 +6,8 @@ import Texts from "./pages/Texts.js";
 import Santeros from "./pages/Santeros.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
+
+import Portifolio from "./pages/Portifolio.js";
 import CookieConsent from "react-cookie-consent"
 import wallpapers from "./pages/wallpapers.js";
 import logo from "./images/Logos/logo.png"
@@ -37,6 +39,8 @@ return (
           "/music">Music</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
           "/press">Press Kit</Link></li>
+          <li className="menu_link"><Link className="menu_link" to=
+          "/portifolio">Portifolio</Link></li>
       </nav>
     </div>
 
@@ -47,6 +51,7 @@ return (
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
     <Route path="/press" component={Santeros} />
+      <Route path="/portifolio" component={Portifolio} />
     <Route path="/music" exact>
       <Music />
     </Route>

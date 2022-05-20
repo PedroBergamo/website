@@ -2,10 +2,8 @@ import React from 'react';
 import "./pages.css";
 import {Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
-
 import Photo from "../images/Photos/Pedro_candle.jpg"
 var satu = "https://www.satulankinen.fi/";
-
 var Seppo = "https://www.satulankinen.fi/";
 var canario_passarinho = "https://www.recantocaipira.com.br/duplas/canario_passarinho/canario_passarinho.html";
 var dream = "https://medium.com/@pedro.bergamo/my-dream-as-a-composer-96f8b9903ba0";

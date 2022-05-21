@@ -5,10 +5,10 @@
 .client{
     background-color: white;
     text-align: center;
+    padding: 2%;
 }
 
 .carousel{
-
   text-align: center;
   width: 30%;
    height: auto;

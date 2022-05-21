@@ -20,6 +20,11 @@ body {
 }
 
 @font-face {
+  font-family: 'ShareTech';
+  src: url('./fonts/ShareTech-Regular.ttf');
+}
+
+@font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
@@ -44,7 +49,6 @@ h1 {
   text-align: left;
   padding: 0 10%;
   margin: auto;
-  line-height: 1.5em;
 }
 
 h2 {
@@ -79,6 +83,12 @@ p {
   line-height: 2em;
   padding: 0 10%;
   overflow: hidden;
+}
+
+h3{
+  font-family: "ShareTech", sans-serif;
+  color: black;
+  text-align: left; 
 }
 
 html, body {

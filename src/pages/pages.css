@@ -3,9 +3,17 @@
 }
 
 .client{
-
+    background-color: white;
     text-align: center;
-    padding: 0 10%;
+}
+
+
+.client h1{
+  color: black;
+}
+
+.client p{
+  color: black;
 }
 
 .song{
@@ -28,6 +36,14 @@
   width : 100%;
 }
 
+.music-page{
+  background-color: black;
+}
+
+.music-page h1{
+  color: white;
+}
+
 .music-row{
   margin-top: 5%;
 
@@ -38,13 +54,13 @@
 
 .BookMe h1{
   text-align: left;
-
-    padding: 0 10%;
+  padding: 0 10%;
   color: Black;
 }
 
 .content{
-  padding: 0 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .bandcamp{

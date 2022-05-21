@@ -40,7 +40,7 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/press">Press Kit</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/portifolio">Portifolio</Link></li>
+          "/portifolio">Design</Link></li>
       </nav>
     </div>
 

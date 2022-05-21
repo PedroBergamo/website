@@ -14,7 +14,7 @@ var rolando = "https://www.linkedin.com/in/rolandocamilo/";
 
 const Santeros = () => {
   return(
-    <div className="col_content">
+    <div className="press-kit">
         <Col xs={12} md={8} >
         <h1>Press Kit</h1>
         <p>

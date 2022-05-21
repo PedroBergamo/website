@@ -13,10 +13,10 @@ import Imigrante from "../images/CoverArts/Imigrante.jpg"
 
 function Music() {
   return (
-    <div>
-  <Container>
+    <div className="music-page">
+    <Container>
       <Row className="music-row">
-      <h1 align="center">Click in the cover art to open the music</h1>
+      <h1 align="center" >Click the cover art to open the music</h1>
       <Col xs={12} sm={6}>
       <div className="song-card">
         <Link className="link" to={`music/${MusicList[5].id}`}>
@@ -56,7 +56,7 @@ function Music() {
           </Col>
       </Row>
     </Container>
-</div>
+    </div>
           );
         }
 

@@ -3,11 +3,10 @@ html, body {
 }
 
 body {
+  background-repeat:no-repeat;
+  background-position: center center;
   font-family: "Roboto Condensed", sans-serif;
-  background-color: white;
- background-image: url("./images/Logos/Mark_background.png");
- background-repeat:no-repeat;
- background-position: center center;
+  background-color: black;
   }
 
 @font-face {
@@ -16,15 +15,16 @@ body {
 }
 
 @font-face {
+  font-family: 'Knockout';
+  src: url('./fonts/Knockout.otf');
+}
+
+@font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
   src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-.bergamo_orange{
-  color: #FFAA3A;
 }
 
 .white {
@@ -36,21 +36,20 @@ body {
 }
 
 h1 {
-  font-family: "Hatolie", sans-serif;
-  font-size: 32px;
+  font-family: "Knockout", sans-serif;
+  text-transform: uppercase;
+  font-size: 100px;
   line-height: 86px;
-  color: black;
+  color: white;
   text-align: left;
   padding: 0 10%;
   margin: auto;
   line-height: 1.5em;
-  letter-spacing: 5px;
 }
 
 h2 {
-  font-family: "Hatolie", sans-serif;
+  font-family: "Knockout", sans-serif;
   font-size: 24px;
-
   color: #FFFFFF;
   text-align: center;
   margin: auto;
@@ -60,8 +59,7 @@ h2 {
 }
 
 h4 {
-
-    font-family: "Hatolie", sans-serif;
+  font-family: "Knockout", sans-serif;
   font-size: 32px;
   color: #FFFFFF;
   text-align: center;
@@ -76,7 +74,7 @@ h4,
 h5,
 p {
   font-family: "georgia", sans-serif;
-  color: black;
+  color: white;
   font-size: large;
   line-height: 2em;
   padding: 0 10%;
@@ -97,8 +95,8 @@ html, body {
 
 .menu_link {
   display: inline-block;
-  font-family: "Hatolie",sans-serif;
-  letter-spacing: 5px;
+  font-family: "Knockout",sans-serif;
+  text-transform: uppercase;
   color: white;
   font-size: 24px;
   text-decoration: none;
@@ -135,7 +133,7 @@ html, body {
   text-align: center;
 }
 
-.col_content {
+.press-kit{
   margin-top: 2%;
   margin-bottom: 2%;
 }

@@ -40,7 +40,7 @@ return (
           <li className="menu_link"><Link className="menu_link" to=
           "/press">Press Kit</Link></li>
           <li className="menu_link"><Link className="menu_link" to=
-          "/portifolio">Design</Link></li>
+          "/design">Design</Link></li>
       </nav>
     </div>
 
@@ -51,7 +51,7 @@ return (
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
     <Route path="/press" component={Santeros} />
-      <Route path="/portifolio" component={Portifolio} />
+      <Route path="/design" component={Portifolio} />
     <Route path="/music" exact>
       <Music />
     </Route>

@@ -8,20 +8,37 @@
     padding: 2%;
 }
 
-.carousel{
-  text-align: center;
-  width: 30%;
-   height: auto;
-   margin-left: 20%;
-}
-
 .client h1{
   color: black;
 }
 
-.client p{
+
+.client h3{
   color: black;
-  text-align: left;
+}
+
+.carousel{
+  text-align: center;
+   height: auto;
+   margin-left: 20%;
+   padding: 5%;
+}
+
+.elias{
+  background-color: #19191a;
+}
+
+.everfrost{
+  background-color: #33e28e;
+}
+
+
+.inke{
+  background-color: #a7301c;
+}
+
+.minfloat {
+  background-color: #011722;
 }
 
 .song{
@@ -33,6 +50,10 @@
   text-align: center;
   margin-bottom: 20px;
   text-decoration: none;
+}
+
+.sun-nainen{
+  background-color: #13091e;
 }
 
 .link{
@@ -79,4 +100,12 @@
 
 .wallpaper{
   padding: 10px 10px;
+}
+
+.whitefont h1{
+  color: white;
+}
+
+.whitefont h3{
+  color: white;
 }

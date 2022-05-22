@@ -44,11 +44,12 @@ h1 {
   font-family: "Knockout", sans-serif;
   text-transform: uppercase;
   font-size: 100px;
-  line-height: 86px;
   color: white;
   text-align: left;
   padding: 0 10%;
-  margin: auto;
+
+  margin: 0px auto 0 auto;
+  display: block;
 }
 
 h2 {
@@ -73,7 +74,6 @@ h4 {
  letter-spacing: 5px;
 }
 
-h3,
 h4,
 h5,
 p {
@@ -89,7 +89,10 @@ h3{
   font-family: "ShareTech", sans-serif;
   color: black;
   text-align: left;
+  margin-bottom: 0;
   text-transform: uppercase;
+
+  padding: 0 10%;
 }
 
 html, body {

@@ -1,12 +1,10 @@
 import React, {useEffect} from 'react';
-import ReactGA from 'react-ga';
 import Footer from "./components/Footer.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Santeros from "./pages/Santeros.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
-
 import Portifolio from "./pages/Portifolio.js";
 import wallpapers from "./pages/wallpapers.js";
 import logo from "./images/Logos/logo.png"
@@ -16,11 +14,6 @@ import {
 import "./index.css"
 
 function App() {
-useEffect(() => {
-  ReactGA.initialize('UA-211790415-1');
-  ReactGA.pageview(window.location.pathname + window.location.search);
-},[])
-
 return (
     <HashRouter>
     <div className="header" id="myHeader">

@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
 
 import Portifolio from "./pages/Portifolio.js";
-import CookieConsent from "react-cookie-consent"
 import wallpapers from "./pages/wallpapers.js";
 import logo from "./images/Logos/logo.png"
 import {
@@ -24,14 +23,6 @@ useEffect(() => {
 
 return (
     <HashRouter>
-    <CookieConsent
-      debug={true}
-      style={{background: '#000', textAlign: 'left'}}
-      buttonStyle={{color: '#000', background:'#fff', size: '14px'}}
-      buttonText ='Sure!'
-      expires={365}
-      >We use cookies to ensure that you will have the best experience in this site. By continuing using this site we assume you are happy with it.</CookieConsent>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d4bf81fa-187c-46ef-a62a-6023e06a479f" data-blockingmode="auto" type="text/javascript"></script>
     <div className="header" id="myHeader">
     <img src={logo} width="20%" height= "30%" alt="logo"></img>
       <nav className="menu">
@@ -46,7 +37,7 @@ return (
 
     <Switch>
     <Route exact path="/">
-      <Redirect to="/press" />
+      <Redirect to="/design" />
     </Route>
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />

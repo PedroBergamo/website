@@ -1,9 +1,7 @@
 import React from 'react';
 import '../index.css';
 import SocialMedia from "./SocialMedia.js";
-import {
-      HashRouter, Switch, Route, Link, Redirect
-  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 
 const date = new Date();

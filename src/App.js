@@ -6,7 +6,6 @@ import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
 import Portifolio from "./pages/Portifolio.js";
 import wallpapers from "./pages/wallpapers.js";
-import logo from "./images/Logos/logo.png"
 import {
       HashRouter, Switch, Route, Link, Redirect
   } from 'react-router-dom';

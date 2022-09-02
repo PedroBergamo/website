@@ -12,6 +12,8 @@ import {
   } from 'react-router-dom';
 import "./index.css"
 
+var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
+
 function App() {
 return (
     <HashRouter>
@@ -19,11 +21,10 @@ return (
     <h1 style={{textAlign:"center"}}>Pedro Bergamo</h1>
       <nav className="menu">
           <li className="menu_link"><Link className="menu_link" to=
-          "/music">Music</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
-          "/press">Press Kit</Link></li>
-          <li className="menu_link"><Link className="menu_link" to=
           "/design">Design</Link></li>
+           <li className="menu_link"><Link className="menu_link" to=
+            "/music">Music</Link></li>
+            <a className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
       </nav>
     </div>
 

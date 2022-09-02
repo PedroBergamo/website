@@ -28,7 +28,7 @@ const Portifolio = () => {
       <div className= "content">
           <h1>Symbols are powerful because they are visible signs of invisible realities.</h1>
           <h1>-Saint Augustine</h1>
-          <p style={{marginTop: "20%"}}>
+          <p style={{marginTop: "10%"}}>
           Pedro Bergamo is a visual artist, developer and musician based in Helsinki-Finland.
           After dealing with several brands while working as a creative director in Brazil, he enrolled
           in a Ph.D. in  modelling and simulation and UX design in Sweden. Right now he is based in Helsinki, where

@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   font-family: "Knockout", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   color: #FFFFFF;
   text-align: center;
   margin: auto;
@@ -95,7 +95,7 @@ p {
   font-family: "Knockout",sans-serif;
   text-transform: uppercase;
   color: white;
-  font-size: 36px;
+  font-size: 60px;
   text-decoration: none;
   padding: 0 10px;
 }
@@ -134,7 +134,7 @@ background-color: black;
 text-align: center;
 clear: both;
 position: relative;
-height: 350px;
+height: 450px;
 margin-top: 3rem;
 }
 
@@ -148,6 +148,8 @@ color:white;
 
 .footer h3 {
 color:white;
+text-align: center;
+
 }
 
 .custom-logo{

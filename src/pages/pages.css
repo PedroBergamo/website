@@ -5,22 +5,29 @@
 .client{
     background-color: white;
     text-align: center;
-    padding: 2%;
+    padding: 10%;
 }
 
 .client h1{
   color: black;
+  margin-top: 0;
 }
 
 
 .client h3{
   color: black;
+  margin-bottom: 0;
+}
+
+
+.content{
+  display: inline-block;
+  margin: 3%;
 }
 
 .carousel{
   text-align: center;
    height: auto;
-   margin-left: 20%;
    padding: 5%;
 }
 
@@ -52,7 +59,7 @@
   text-decoration: none;
 }
 
-.sun-nainen{
+.video{
   background-color: #13091e;
 }
 
@@ -87,10 +94,6 @@
   color: Black;
 }
 
-.content{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
 
 .bandcamp{
   padding: 0 10%;

@@ -1,4 +1,3 @@
-import React, {useEffect} from 'react';
 import Footer from "./components/Footer.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
@@ -17,7 +16,7 @@ function App() {
 return (
     <HashRouter>
     <div className="header" id="myHeader">
-    <img src={logo} width="20%" height= "30%" alt="logo"></img>
+    <h1 style={{textAlign:"center"}}>Pedro Bergamo</h1>
       <nav className="menu">
           <li className="menu_link"><Link className="menu_link" to=
           "/music">Music</Link></li>

@@ -26,8 +26,8 @@ const Portifolio = () => {
   return(
     <div>
       <div className= "content">
-          <h1>Symbols are powerful because they are visible signs of invisible realities.</h1>
-          <h1>-Saint Augustine</h1>
+          <h2>Symbols are powerful because they are visible signs of invisible realities</h2>
+          <h2>-Saint Augustine</h2>
           <p style={{marginTop: "10%"}}>
           Pedro Bergamo is a visual artist, developer and musician based in Helsinki-Finland.
           After being the head of marketing with several brands while working as a creative director in Brazil, he moved to Europe
@@ -116,7 +116,7 @@ const Portifolio = () => {
             <h3>Music Video </h3>
             <h1>Pedro Bergamo - Imigrante</h1>
 
-            <iframe width="450" height="300" src="https://www.youtube.com/embed/OgFXGCQHIac"
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OgFXGCQHIac"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen="allowfullscreen"

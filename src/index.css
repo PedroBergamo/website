@@ -5,7 +5,7 @@ html, body {
 body {
   background-repeat:no-repeat;
   background-position: center center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: black;
   }
 
@@ -43,40 +43,38 @@ body {
 h1 {
   font-family: "Knockout", sans-serif;
   text-transform: uppercase;
-  font-size: 98px;
+  font-size: 72px;
   color: white;
   text-align: left;
   padding: 0 10%;
   display: block;
+  line-height: auto;
 }
 
 h2 {
-  font-family: "Knockout", sans-serif;
-  font-size: 24px;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 40px;
   color: #FFFFFF;
-  text-align: center;
-  margin: auto;
- line-height: 2.5em;
- letter-spacing: 5px;
+  padding: 0 10%;
+ line-height: auto;
 }
 
 h3{
   font-family: "ShareTech", sans-serif;
   color: black;
-  font-size: 36px;
+  font-size: 24px;
   text-align: left;
   text-transform: uppercase;
   padding: 0 10%;
-
 }
 
 h4,
 h5,
 p {
-  font-family: "georgia", sans-serif;
+  font-family: "Forum", sans-serif;
   color: white;
-  font-size: 36px;
-  line-height: 2em;
+  font-size: 24px;
+  line-height: auto;
   padding: 0 10%;
   overflow: hidden;
 }

@@ -5,7 +5,7 @@
 .client{
     background-color: white;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 .client h1{
@@ -51,6 +51,11 @@
 .song{
   padding: 0 10%;
   margin-top: 5%;
+}
+
+.song h3{
+  text-align: center;
+  margin: 5%;
 }
 
 .song-card{

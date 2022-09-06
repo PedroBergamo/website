@@ -1,5 +1,6 @@
 html, body {
-  min-height:100%;
+    margin:0px;
+    min-height: 100%;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
   background-position: center center;
   font-family: "Raleway", sans-serif;
   background-color: black;
+
   }
 
 @font-face {
@@ -41,9 +43,9 @@ body {
 }
 
 h1 {
-  font-family: "Knockout", sans-serif;
+  font-family: "Forum", sans-serif;
   text-transform: uppercase;
-  font-size: 72px;
+  font-size: 40px;
   color: white;
   text-align: left;
   padding: 0 10%;
@@ -52,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Yeseva One", sans-serif;
+  font-family: "Forum", sans-serif;
   font-size: 40px;
   color: #FFFFFF;
   padding: 0 10%;
@@ -61,7 +63,7 @@ h2 {
 
 h3{
   font-family: "ShareTech", sans-serif;
-  color: black;
+  color: white;
   font-size: 24px;
   text-align: left;
   text-transform: uppercase;
@@ -79,21 +81,43 @@ p {
   overflow: hidden;
 }
 
+.bm-burger-button {
+  position:fixed;
+   width: 8%;
+   margin: 2%;
+  }
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  padding: 2.5em 2.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-overlay {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 36px;
+  width: 36px;
+}
+
+.bm-cross {
+  background: black;
+}
 
 .hide {
     display: none;
 }
 
-.menu {
-    display: inline-block;
-}
-
 .menu_link {
-  display: inline-block;
+  display: block;
   font-family: "Knockout",sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-size: 60px;
+  text-align: center;
   text-decoration: none;
   padding: 0 10px;
 }
@@ -115,25 +139,20 @@ p {
 }
 
 .header{
-  width: 100%;
-  background-color: black;
-  text-align: center;
+  display: inline;
+  vertical-align: middle;
 }
 
 .header h2 {
   color: white;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
+  text-align: right;
+  margin: 0px;
+
 }
 
 .footer {
 background-color: black;
 text-align: center;
-clear: both;
-position: relative;
-height: 450px;
-margin-top: 3rem;
 }
 
 .footer p {
@@ -147,7 +166,6 @@ color:white;
 .footer h3 {
 color:white;
 text-align: center;
-
 }
 
 .custom-logo{

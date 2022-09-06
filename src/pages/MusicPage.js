@@ -24,13 +24,13 @@ const MusicPage = (props) => {
   return(
           <div key={fetchedSong.id} className="song">
           <Col xs={8} md={6}>
-          <h1>{fetchedSong.title}</h1>
+          <h3>{fetchedSong.title}</h3>
           {fetchedSong.lyrics.map((verse, i) => {
             return <p key={i} className="lyrics">{verse}</p>
           })}
           </Col>
           <Col xs={8} md={6}>
-          <h1>{fetchedSong.englishtitle}</h1>
+          <h3>{fetchedSong.englishtitle}</h3>
           {fetchedSong.translation.map((verse, i) => {
             return <p key={i} className="lyrics">{verse}</p>
           })}

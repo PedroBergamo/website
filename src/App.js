@@ -1,4 +1,5 @@
 import Footer from "./components/Footer.js";
+import Menu from "./components/Menu.js";
 import Music from "./pages/Music.js";
 import Texts from "./pages/Texts.js";
 import Santeros from "./pages/Santeros.js";
@@ -7,26 +8,22 @@ import MusicPage from "./pages/MusicPage.js";
 import Portifolio from "./pages/Portifolio.js";
 import wallpapers from "./pages/wallpapers.js";
 import {
-      HashRouter, Switch, Route, Link, Redirect
+      HashRouter, Switch, Route, Redirect
   } from 'react-router-dom';
-import "./index.css"
 
-var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
+import "./index.css"
 
 function App() {
 return (
     <HashRouter>
-    <div className="header" id="myHeader">
-    <h1 style={{textAlign:"center"}}>Pedro Bergamo</h1>
-      <nav className="menu">
-          <li className="menu_link"><Link className="menu_link" to=
-          "/design">Design</Link></li>
-           <li className="menu_link"><Link className="menu_link" to=
-            "/music">Music</Link></li>
-            <a className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
-      </nav>
-    </div>
 
+    <Menu/>
+    <div className="header" id="myHeader">
+
+      <h2>Pedro Bergamo</h2>
+
+
+    </div>
     <Switch>
     <Route exact path="/">
       <Redirect to="/design" />

@@ -17,12 +17,9 @@ function App() {
 return (
     <HashRouter>
 
-    <Menu/>
-    <div className="header" id="myHeader">
-
+      <div className="header" id="myHeader">
+      <Menu/>
       <h2>Pedro Bergamo</h2>
-
-
     </div>
     <Switch>
     <Route exact path="/">

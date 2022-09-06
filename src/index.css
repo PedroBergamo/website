@@ -64,7 +64,7 @@ h2 {
 h3{
   font-family: "ShareTech", sans-serif;
   color: white;
-  font-size: 24px;
+  font-size: 16px;
   text-align: left;
   text-transform: uppercase;
   padding: 0 10%;
@@ -111,15 +111,25 @@ p {
     display: none;
 }
 
+.menu h2{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5%;
+
+}
+
 .menu_link {
   display: block;
-  font-family: "Knockout",sans-serif;
+  font-family: "Forum",sans-serif;
   text-transform: uppercase;
   color: black;
-  font-size: 60px;
+  font-size: 36px;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 20% 10px;
+
 }
 
 .text_link {

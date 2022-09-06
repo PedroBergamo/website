@@ -1,11 +1,13 @@
 import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
+import "../index.css";
 import {
      Link
   } from 'react-router-dom';
 
 import menu from "../images/Icons/menu.png"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
+
 
 export default class Menu extends React.Component {
   constructor (props) {
@@ -14,7 +16,7 @@ export default class Menu extends React.Component {
         menuOpen: false
       }
     }
-    
+
     // This keeps your state in sync with the opening/closing of the menu
     // via the default means, e.g. clicking the X, pressing the ESC key etc.
     handleStateChange (state) {
@@ -35,7 +37,7 @@ export default class Menu extends React.Component {
 
     render() {
         return (
-          <div >
+          <div className='menu'>
               <Slide
                 right
                 customBurgerIcon={ <img src={menu} alt="menu png"/>}

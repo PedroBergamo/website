@@ -55,7 +55,9 @@
 
 .song h3{
   text-align: center;
-  margin: 5%;
+  margin: 10%;
+  font-size: 36px;
+
 }
 
 .song-card{

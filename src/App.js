@@ -5,7 +5,7 @@ import Texts from "./pages/Texts.js";
 import Santeros from "./pages/Santeros.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
-import Portifolio from "./pages/Portifolio.js";
+import Bio from "./pages/Bio.js";
 import wallpapers from "./pages/wallpapers.js";
 import {
       HashRouter, Switch, Route, Redirect
@@ -16,19 +16,18 @@ import "./index.css"
 function App() {
 return (
     <HashRouter>
+     <Menu/>
+    <div className="header" id="myHeader">
 
-      <div className="header" id="myHeader">
-      <Menu/>
-      <h2>Pedro Bergamo</h2>
     </div>
     <Switch>
     <Route exact path="/">
-      <Redirect to="/design" />
+      <Redirect to="/Bio" />
     </Route>
     <Route path="/404" component={NotFound} />
     <Route path="/music/:id" render={props => <MusicPage {...props}/>} />
     <Route path="/press" component={Santeros} />
-      <Route path="/design" component={Portifolio} />
+      <Route path="/Bio" component={Bio} />
     <Route path="/music" exact>
       <Music />
     </Route>

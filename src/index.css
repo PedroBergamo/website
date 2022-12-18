@@ -3,10 +3,27 @@ html, body {
     min-height: 100%;
 }
 
+button {
+  display: inline-block;
+  background-color: #63460f;
+  border-radius: 10px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
 body {
   background-repeat:no-repeat;
   background-position: center center;
-  font-family: "Raleway", sans-serif;
+  font-family: "ShareTech", sans-serif;
   background-color: #121212;
 }
 
@@ -80,11 +97,16 @@ p {
   overflow: hidden;
 }
 
+
 .bm-burger-button {
-  position:fixed;
-   width: 32px;
-   height: 24px;
-   margin: 6rem 1rem;
+   position:fixed;
+   width: 15%;
+   text-align: center;
+   justify-content: center;
+  }
+
+  .burguer{
+    width: 200%;
   }
 
 /* General sidebar styles */
@@ -99,17 +121,14 @@ p {
 }
 
 .bm-cross-button {
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
 }
 
 .bm-cross {
   background: black;
 }
 
-.header h2{
-  padding: 5rem;
-}
 
 .hide {
     display: none;
@@ -132,7 +151,6 @@ p {
   vertical-align: top;
   text-decoration: none;
   padding: 4rem 10px;
-
 }
 
 .text_link {
@@ -152,15 +170,14 @@ p {
 }
 
 .header{
-  display: inline;
   vertical-align: middle;
-}
+  text-align: center;
+  align-items: center;
 
-.header h2 {
-  color: white;
-  text-align: right;
-  margin: 0px;
-
+  justify-content: center;
+  position: fixed;
+  margin-top: 0%;
+  width: 100%;
 }
 
 .footer {
@@ -195,6 +212,31 @@ text-align: center;
 
 ul li{
   list-style: none;
+}
+
+.splash-video{
+   background-image: url("./Resources/Pedro.Bergamo.png");
+  background-position: center;
+  width: 100%;
+  height: 945px;
+  position: relative;
+  object-fit: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+
+.video-button {
+  position: absolute;
+  text-align: center;
+}
+
+.sygil{
+    text-align: right;
+    width: 10%;
 }
 
 .display_inline{

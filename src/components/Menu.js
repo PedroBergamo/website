@@ -5,7 +5,8 @@ import {
      Link
   } from 'react-router-dom';
 
-import menu from "../images/Icons/menu.png"
+import menu from "../images/Logos/Sygil-nobg.png"
+
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 
 
@@ -40,7 +41,7 @@ export default class Menu extends React.Component {
           <div className='menu'>
               <Slide
                 right
-                customBurgerIcon={ <img src={menu} alt="menu png"/>}
+                customBurgerIcon={ <img src={menu} className="burguer" alt="menu png"/>}
                 width={ '100%' }
                 isOpen={this.state.menuOpen}
                 onStateChange={(state) => this.handleStateChange(state)}

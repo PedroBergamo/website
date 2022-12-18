@@ -15,7 +15,7 @@ export default class SocialMedia extends React.Component {
     render() {
         return (
           <div className="social-media">
-          <h3 style={{marginBottom:"10%"}}>Connect with the mystic:</h3>
+          <h3 style={{marginBottom:"10%"}}>Conecte-se com o feiticeiro</h3>
                 <Nav>
                 <Nav.Link
                     href="https://www.instagram.com/pedro.bergamo/"

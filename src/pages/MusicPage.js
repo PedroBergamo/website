@@ -36,7 +36,7 @@ const MusicPage = (props) => {
           })}
           </Col>
             <p>&nbsp;</p>
-            <p>Composer: Pedro Bergamo</p>
+            <p>Compositor: Pedro Bergamo</p>
             <p>© Aracnídea Records</p>
             <iframe className="bandcamp" title={fetchedSong.title}
                 src={`https://bandcamp.com/EmbeddedPlayer/track=${fetchedSong.bandcamp}/size=small/bgcol=000000/linkcol=999999/tracklist=false/transparent=true/`} seamless>

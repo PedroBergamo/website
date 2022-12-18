@@ -6,7 +6,7 @@ const date = new Date();
 const footerObj = {
     name: 'Pedro Bergamo',
     date: date.getFullYear(),
-    contact: 'pedrobergamo89@gmail.com'
+    contact: 'pedro@bergamocreations.com'
 };
 
 export default class Footer extends React.Component {

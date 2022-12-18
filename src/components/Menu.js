@@ -7,6 +7,7 @@ import {
 
 import menu from "../images/Logos/Sygil-nobg.png"
 
+var BC = "http://bergamocreations.com/"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 
 
@@ -46,12 +47,12 @@ export default class Menu extends React.Component {
                 isOpen={this.state.menuOpen}
                 onStateChange={(state) => this.handleStateChange(state)}
               >
-                  <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-                  "/design">Design</Link></li>
-                   <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-                    "/music">Music</Link></li>
-                    <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
-
+              <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
+               "/music">Música</Link></li>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={BC} target="_blank" rel="noreferrer">Artes visuais</a>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Loja de impressões</a>
+              <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
+                   "/bio">Bio</Link></li>
               </Slide>
               </div>
 

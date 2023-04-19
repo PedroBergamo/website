@@ -1,11 +1,13 @@
 import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
 import "../index.css";
+
+import {Col} from "react-bootstrap";
 import {
      Link
   } from 'react-router-dom';
 
-import menu from "../images/Logos/Sygil-nobg.png"
+import menu from "../images/Logos/bergamoth-black.png"
 
 var BC = "http://bergamocreations.com/"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
@@ -39,22 +41,25 @@ export default class Menu extends React.Component {
 
     render() {
         return (
-          <div className='menu'>
+          <div className="menu">
               <Slide
                 right
-                customBurgerIcon={ <img src={menu} className="burguer" alt="menu png"/>}
+                customBurgerIcon={<p>Menu</p>}
                 width={ '100%' }
                 isOpen={this.state.menuOpen}
                 onStateChange={(state) => this.handleStateChange(state)}
               >
               <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-               "/music">Música</Link></li>
-                  <a onClick={() => this.closeMenu()} className="menu_link" href={BC} target="_blank" rel="noreferrer">Artes visuais</a>
-                  <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Loja de impressões</a>
+               "/music">Music</Link></li>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={BC} target="_blank" rel="noreferrer">Photos</a>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
               <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
                    "/bio">Bio</Link></li>
               </Slide>
+              <h1>Pedro Bergamo</h1>
+
               </div>
+
 
         )
       }}

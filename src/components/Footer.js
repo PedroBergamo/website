@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../css/components.css';
 import SocialMedia from "./SocialMedia.js";
 const date = new Date();
 

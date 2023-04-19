@@ -1,6 +1,15 @@
-html, body {
+html {
     margin:0px;
     min-height: 100%;
+    position: relative;
+
+}
+
+body {
+  margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 25px;
+
 }
 
 button {
@@ -23,13 +32,12 @@ button {
 body {
   background-repeat:no-repeat;
   background-position: center center;
-  font-family: "ShareTech", sans-serif;
-  background-color: #121212;
+  font-family: "Wellingtons", sans-serif;
 }
 
 @font-face {
-  font-family: 'Hatolie';
-  src: url('./fonts/Hatolie.ttf');
+  font-family: 'Wellingtons';
+  src: url('./fonts/Wellingtons.ttf');
 }
 
 @font-face {
@@ -42,14 +50,6 @@ body {
   src: url('./fonts/ShareTech-Regular.ttf');
 }
 
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 .white {
   color: #C6C6C6;
 }
@@ -59,18 +59,16 @@ body {
 }
 
 h1 {
-  font-family: "Forum", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
-  color: white;
+  color: black;
   text-align: left;
-  padding: 0 10%;
   display: block;
-  line-height: auto;
 }
 
 h2 {
-  font-family: "Forum", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   font-size: 40px;
   color: #FFFFFF;
   padding: 0 10%;
@@ -89,21 +87,19 @@ h3{
 h4,
 h5,
 p {
-  font-family: "Forum", sans-serif;
-  color: white;
+  font-family: "Wellingtons", sans-serif;
+  color: black;
   font-size: 24px;
   line-height: auto;
   padding: 0 10%;
   overflow: hidden;
 }
 
-
 .bm-burger-button {
    position:fixed;
-   width: 10%;
+   width: 20%;
    text-align: center;
    justify-content: center;
-
    margin: 1rem;
   }
 
@@ -127,9 +123,14 @@ p {
   background: black;
 }
 
-
 .hide {
     display: none;
+}
+
+.menu h1{
+  color: black;
+  padding: 5rem;
+  letter-spacing: 1.23rem;
 }
 
 .menu h2{
@@ -141,7 +142,7 @@ p {
 
 .menu_link {
   display: block;
-  font-family: "Forum",sans-serif;
+  font-family: "Wellingtons",sans-serif;
   text-transform: uppercase;
   color: black;
   font-size: 36px;
@@ -178,24 +179,6 @@ p {
   width: 100%;
 }
 
-.footer {
-background-color: black;
-text-align: center;
-}
-
-.footer p {
-color:white;
-}
-
-.footer h1 {
-color:white;
-}
-
-.footer h3 {
-color:white;
-text-align: center;
-}
-
 .custom-logo{
   width: 40%;
   display: inline-block;
@@ -212,27 +195,9 @@ ul li{
   list-style: none;
 }
 
-.splash-video{
-   background-image: url("./Resources/Pedro.Bergamo.png");
-  background-position: center;
-  width: 100%;
-  height: 945px;
-  position: relative;
-  object-fit: cover;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
-}
-
-.video-button {
-  position: absolute;
-  text-align: center;
-}
-
-.sygil{
+.mark{
     text-align: right;
-    width: 10%;
+    width: 50%;
 }
 
 .display_inline{

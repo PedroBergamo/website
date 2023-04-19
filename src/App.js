@@ -6,20 +6,11 @@ import Photos from "./pages/photos.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
 import Bio from "./pages/Bio.js";
-import Links from "./components/links.js"
-import {Col} from "react-bootstrap";
 import {
       HashRouter, Switch, Route, Redirect
   } from 'react-router-dom';
 import "./index.css"
 
-  import {
-       Link
-    } from 'react-router-dom';
-
-
-  var BC = "http://bergamocreations.com/"
-  var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 
 
 

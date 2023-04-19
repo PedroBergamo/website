@@ -2,12 +2,9 @@ import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
 import "../index.css";
 
-import {Col} from "react-bootstrap";
 import {
      Link
   } from 'react-router-dom';
-
-import menu from "../images/Logos/bergamoth-black.png"
 
 var BC = "http://bergamocreations.com/"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"

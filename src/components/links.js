@@ -3,8 +3,6 @@ import {
      Link
   } from 'react-router-dom';
 
-import menu from "../images/Logos/bergamoth-black.png"
-
 var BC = "http://bergamocreations.com/"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 

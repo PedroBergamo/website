@@ -1,7 +1,6 @@
 import React from 'react';
 import "../css/pages.css";
 import {Col, Container} from "react-bootstrap";
-import Links from "../components/links.js";
 
 import Photo1 from "../images/photos/photo1.jpg";
 import Photo2 from "../images/photos/photo2.jpg";

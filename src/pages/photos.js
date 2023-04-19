@@ -7,7 +7,7 @@ import Photo1 from "../images/photos/photo1.jpg";
 import Photo2 from "../images/photos/photo2.jpg";
 import Photo4 from "../images/photos/photo4.jpg";
 import Photo5 from "../images/photos/photo5.png";
-import Photo6 from "../images/photos/photo6.png";
+import Photo6 from "../images/photos/photo6.jpg";
 import Photo7 from "../images/photos/photo7.jpg";
 import Photo8 from "../images/photos/photo8.jpg";
 import Photo9 from "../images/photos/photo9.jpg";
@@ -22,7 +22,7 @@ function Photos() {
         <img src={Photo1} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo2} width="100%" alt=""/>
+        <img src={Photo7} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
         <img src={Photo4} width="100%" alt=""/>
@@ -49,7 +49,7 @@ function Photos() {
         <img src={Photo5} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo7} width="100%" alt=""/>
+        <img src={Photo2} width="100%" alt=""/>
         </Col>
 
       </Container>

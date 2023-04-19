@@ -16,7 +16,7 @@ function Music() {
     <div className="music-page">
     <Container>
       <Row className="music-row">
-      <p align="center" >Clique na arte para abrir a música</p>
+      <p align="center" >Click on the art to open the music</p>
       <Col xs={12} sm={6}>
       <div className="song-card">
         <Link className="link" to={`music/${MusicList[5].id}`}>

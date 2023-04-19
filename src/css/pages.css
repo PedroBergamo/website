@@ -27,7 +27,13 @@
 
 .content{
   display: inline-block;
-  margin: 3%;
+  padding: 1rem; 
+}
+
+.pedro-photo{
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
 }
 
 .cover-escute{
@@ -78,25 +84,12 @@
   width : 100%;
 }
 
-.music-page{
-}
-
-.music-page h1{
-  color: white;
-}
-
 .music-row{
   margin-top: 5%;
 
 }
 .last-column{
   margin: 0% 0%;
-}
-
-.BookMe h1{
-  text-align: left;
-  padding: 0 10%;
-  color: Black;
 }
 
 .bandcamp{

@@ -42,6 +42,7 @@ export default class Menu extends React.Component {
     render() {
         return (
           <div className="menu">
+
               <Slide
                 right
                 customBurgerIcon={<p>Menu</p>}
@@ -50,11 +51,14 @@ export default class Menu extends React.Component {
                 onStateChange={(state) => this.handleStateChange(state)}
               >
               <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-               "/music">Music</Link></li>
-                  <a onClick={() => this.closeMenu()} className="menu_link" href={BC} target="_blank" rel="noreferrer">Photos</a>
-                  <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
+               "/photos">Photos</Link></li>
               <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-                   "/bio">Bio</Link></li>
+               "/music">Music</Link></li>
+               <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
+                    "/bio">Bio</Link></li>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={BC} target="_blank" rel="noreferrer">Branding</a>
+                  <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
+
               </Slide>
               <h1>Pedro Bergamo</h1>
 

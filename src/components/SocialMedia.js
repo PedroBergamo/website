@@ -17,7 +17,7 @@ export default class SocialMedia extends React.Component {
           <div className="social-media">
                 <Nav>
                 <Nav.Link
-                    href="https://www.instagram.com/pedro.bergamo/"
+                    href="https://www.instagram.com/bergamo.jpg/"
                     target="_blank"
                     alt="Instagram"
                     style={navObj.linkStyle}

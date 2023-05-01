@@ -14,8 +14,8 @@ export default class Footer extends React.Component {
         return (
                 <footer className= "footer" >
                     <SocialMedia/>
-                    <h3>{footerObj.contact}</h3>
-                    <h3>&copy; {footerObj.date} - {footerObj.name}</h3>
+                    <p>{footerObj.contact}</p>
+                    <p>&copy; {footerObj.date} - {footerObj.name}</p>
                 </footer>
 
 

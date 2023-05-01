@@ -86,6 +86,7 @@ p {
 }
 
 .bm-burger-button {
+   position:relative;
    width: 20%;
    text-align: center;
    justify-content: center;
@@ -119,8 +120,6 @@ p {
 .menu h1{
   color: black;
   letter-spacing: 1.23rem;
-     margin: 1rem;
-     text-align: center;
 }
 
 .menu h2{

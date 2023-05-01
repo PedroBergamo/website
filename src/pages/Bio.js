@@ -1,6 +1,6 @@
 import "../css/pages.css"
 import {Container, Row, Col} from "react-bootstrap";
-import PedroPhoto from "../images/photos/Pedro.png"
+import PedroPhoto from "../images/photos/Pedro.jpg"
 
 const Bio = () => {
   return(

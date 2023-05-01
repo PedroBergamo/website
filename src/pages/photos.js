@@ -2,53 +2,53 @@ import React from 'react';
 import "../css/pages.css";
 import {Col, Container} from "react-bootstrap";
 
-import Photo1 from "../images/photos/photo1.jpg";
-import Photo2 from "../images/photos/photo2.jpg";
-import Photo4 from "../images/photos/photo4.jpg";
-import Photo5 from "../images/photos/photo5.png";
-import Photo6 from "../images/photos/photo6.jpg";
-import Photo7 from "../images/photos/photo7.jpg";
-import Photo8 from "../images/photos/photo8.jpg";
+import Niilo from "../images/photos/niilo.jpg";
+import Bass from "../images/photos/bass-vimma.jpg";
+import Pedro from "../images/photos/pedro-elina.jpg";
+import Eevaa from "../images/photos/eevaa.jpg";
+import Samppa from "../images/photos/samppa.jpg";
+import Eagle from "../images/photos/eagle.jpg";
+import Ene from "../images/photos/ene.jpg";
 import Photo9 from "../images/photos/photo9.jpg";
-import Photo10 from "../images/photos/photo10.jpg";
-import Photo11 from "../images/photos/photo11.jpg";
-import Photo12 from "../images/photos/photo12.png";
+import Elsi from "../images/photos/elsi.jpg";
+import Halophones from "../images/photos/photo11.jpg";
+import Portland from "../images/photos/photo12.png";
 
 function Photos() {
   return(
     <Container className="gallery">
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo1} width="100%" alt=""/>
+        <img src={Niilo} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo7} width="100%" alt=""/>
+        <img src={Bass} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo4} width="100%" alt=""/>
+        <img src={Pedro} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
         <img src={Photo9} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo10} width="100%" alt=""/>
+        <img src={Elsi} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo11} width="100%" alt=""/>
+        <img src={Halophones} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo12} width="100%" alt=""/>
+        <img src={Portland} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo8} width="100%" alt=""/>
+        <img src={Ene} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo6} width="100%" alt=""/>
+        <img src={Samppa} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo5} width="100%" alt=""/>
+        <img src={Eevaa} width="100%" alt=""/>
         </Col>
         <Col xs={12} md={4} lg={3} className="gallery">
-        <img src={Photo2} width="100%" alt=""/>
+        <img src={Eagle} width="100%" alt=""/>
         </Col>
 
       </Container>

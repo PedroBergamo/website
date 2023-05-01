@@ -61,7 +61,7 @@ body {
 h1 {
   font-family: "Wellingtons", sans-serif;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: calc(1em + 4vw);
   color: black;
   text-align: left;
   display: block;
